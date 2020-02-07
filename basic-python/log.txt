@@ -1,0 +1,2 @@
+2020-02-04 19:01:45,705 - WARNING - Could not connect to device. Connection error
+2020-02-04 19:01:48,708 - WARNING - Could not connect to device. Connection error

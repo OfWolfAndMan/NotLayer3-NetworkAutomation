@@ -1,0 +1,10 @@
+- ip: 1.2.3.4
+  network_os: cisco_ios
+  password: pass123
+  username: admin
+  vendor: cisco
+- ip: 2.3.4.5
+  network_os: junos
+  password: jun123
+  username: admin
+  vendor: juniper
