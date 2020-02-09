@@ -16,7 +16,7 @@ Git add <filea> <fileb> <filec>
 
 #Get the status of files to be committed
 git status
-
+&
 #Commit the files to HEAD
 git commit -m "message"
 
