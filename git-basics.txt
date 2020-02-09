@@ -1,0 +1,41 @@
+#Initialize a new repository locally
+git init
+
+Working Directory <-> Index <-> HEAD <-> Remote Repo
+Holds the files <-> Acts as a staging area <-> Points to the last commit made
+
+#Set local settings
+git config --global user.name "<your username>"
+git config --global user.email "<your email>"
+
+#Clone the repository
+git clone <uri>
+
+#Add files to the staging area (Add it to the index)
+Git add <filea> <fileb> <filec>
+
+#Get the status of files to be committed
+git status
+
+#Commit the files to HEAD
+git commit -m "message"
+
+#Send changes to remote repository
+git push origin <branch>
+
+##Git branching
+
+#Create a new branch
+git checkout -b <branchname>
+
+#Checkout an existing branch
+git checkout <existing-branch>
+
+#Delete an existing branch
+git branch -d <branchname>
+
+#Update local branch to latest commit
+git pull
+
+#Stash changes that don't exist on remote repo locally before pulling updated commit from remote repo
+git stash
