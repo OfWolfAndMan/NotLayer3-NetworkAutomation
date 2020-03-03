@@ -7,3 +7,4 @@ for entry in yaml_function('./devices.yml', 'read'):
     output = get_config(entry, 'show run\n')
     text_function(f'./configs/{name}.txt', 'write', data=output)
 
+#Just an update
