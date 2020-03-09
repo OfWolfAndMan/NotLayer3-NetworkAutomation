@@ -9,6 +9,7 @@ if not os.path.exists('./log.txt'):
 else:
     logging.basicConfig(format=FORMAT, filename='log.txt', filemode='a', level=logging.DEBUG)
 
+
 def text_function(file, operation, data=None):
     if operation == 'read':
         with open(file, 'r') as myfile:
@@ -20,6 +21,7 @@ def text_function(file, operation, data=None):
             return output
     with open(file, 'w') as myfile:
         myfile.write(data)
+
 
 def yaml_function(file:str, operation: str, data=None):
     if operation == 'read':

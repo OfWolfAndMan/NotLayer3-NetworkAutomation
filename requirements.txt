@@ -2,3 +2,5 @@ netmiko
 pyyaml
 ntc-templates
 black
+flake8
+pytest
