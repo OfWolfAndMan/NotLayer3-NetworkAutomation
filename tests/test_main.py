@@ -12,7 +12,7 @@ def schema():
 @pytest.fixture
 def types():
     return ["firewall", "switch", "router", "vpn", "proxy"]
-
+g
 def test_addition_pass(numbers:list):
     assert type(numbers) == list
     assert [type(x) == int for x in numbers]
