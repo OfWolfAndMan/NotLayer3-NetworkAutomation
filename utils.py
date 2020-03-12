@@ -2,12 +2,18 @@ import yaml
 from netmiko import ConnectHandler, NetmikoAuthenticationException
 import logging
 import os
+from ntc_templates.parse import parse_output
+import json
 
 FORMAT = '%(asctime)s - %(levelname)s - %(message)s'
 if not os.path.exists('./log.txt'):
     logging.basicConfig(format=FORMAT, filename='log.txt', filemode='x', level=logging.DEBUG)
 else:
     logging.basicConfig(format=FORMAT, filename='log.txt', filemode='a', level=logging.DEBUG)
+
+command_mapper = {
+    "show cdp neighbors detail": "_show_cdp_neigh_detail"
+}
 
 
 def text_function(file, operation, data=None):
@@ -53,3 +59,9 @@ def get_config(device_params, command):
         raise
         # logging.warning(f"Could not connect to device {device_params.get('host')}. Connection error")
 
+def parse_outputs(hostnames: list, command: str) -> None:
+    for hostname in hostnames:
+        with open(f"./configs/{hostname}{command_mapper.get(command)}.raw", "r") as f:
+            parsed_config = parse_output(platform='cisco_ios', command=command, data=f.read())
+            with open(f"./parsed_configs/{hostname}{command_mapper.get(command)}.parsed", "w") as newfile:
+                newfile.write(json.dumps(parsed_config, indent=4))
