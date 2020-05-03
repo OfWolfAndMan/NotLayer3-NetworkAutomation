@@ -5090,3 +5090,3480 @@ R5#
 R5#
 2020-02-06 16:42:30,772 - DEBUG - exit_config_mode: 
 2020-02-06 16:42:30,772 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:31:47,758 - DEBUG - starting thread (client mode): 0xdd4db0b8
+2020-03-12 18:31:47,760 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-03-12 18:31:47,777 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-03-12 18:31:47,778 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-03-12 18:31:47,779 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-03-12 18:31:47,780 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-03-12 18:31:47,780 - DEBUG - HostKey agreed: ssh-rsa
+2020-03-12 18:31:47,780 - DEBUG - Cipher agreed: aes128-ctr
+2020-03-12 18:31:47,780 - DEBUG - MAC agreed: hmac-sha1
+2020-03-12 18:31:47,780 - DEBUG - Compression agreed: none
+2020-03-12 18:31:47,782 - DEBUG - Got server p (2048 bits)
+2020-03-12 18:31:47,914 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-03-12 18:31:47,915 - DEBUG - Switch to new keys ...
+2020-03-12 18:31:47,935 - DEBUG - Adding ssh-rsa host key for 10.0.0.101: b'3c773f5ec34ee7fd03bc4207379f29f8'
+2020-03-12 18:31:48,118 - DEBUG - userauth is OK
+2020-03-12 18:31:48,378 - INFO - Authentication (password) successful!
+2020-03-12 18:31:48,379 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-03-12 18:31:48,381 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-03-12 18:31:48,381 - DEBUG - Secsh channel 0 opened.
+2020-03-12 18:31:48,382 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:31:48,383 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:31:49,488 - DEBUG - read_channel: 
+R1#
+2020-03-12 18:31:49,589 - DEBUG - read_channel: 
+2020-03-12 18:31:51,590 - DEBUG - read_channel: 
+2020-03-12 18:31:51,691 - DEBUG - read_channel: 
+2020-03-12 18:31:51,692 - DEBUG - write_channel: b'\n'
+2020-03-12 18:31:51,792 - DEBUG - read_channel: 
+R1#
+2020-03-12 18:31:51,994 - DEBUG - read_channel: 
+2020-03-12 18:31:51,994 - DEBUG - [find_prompt()]: prompt is R1#
+2020-03-12 18:31:52,195 - DEBUG - read_channel: 
+2020-03-12 18:31:52,195 - DEBUG - In disable_paging
+2020-03-12 18:31:52,195 - DEBUG - Command: terminal length 0
+
+2020-03-12 18:31:52,196 - DEBUG - write_channel: b'terminal length 0\n'
+2020-03-12 18:31:52,196 - DEBUG - Pattern is: terminal\ length\ 0
+2020-03-12 18:31:52,201 - DEBUG - _read_channel_expect read_data: t
+2020-03-12 18:31:52,302 - DEBUG - _read_channel_expect read_data: erminal length 0
+R1#
+2020-03-12 18:31:52,302 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R1#
+2020-03-12 18:31:52,302 - DEBUG - terminal length 0
+R1#
+2020-03-12 18:31:52,303 - DEBUG - Exiting disable_paging
+2020-03-12 18:31:52,303 - DEBUG - write_channel: b'terminal width 511\n'
+2020-03-12 18:31:52,303 - DEBUG - Pattern is: terminal\ width\ 511
+2020-03-12 18:31:52,309 - DEBUG - _read_channel_expect read_data: t
+2020-03-12 18:31:52,418 - DEBUG - _read_channel_expect read_data: erminal width 511
+R1#
+2020-03-12 18:31:52,418 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R1#
+2020-03-12 18:31:52,819 - DEBUG - read_channel: 
+2020-03-12 18:31:52,923 - DEBUG - read_channel: 
+2020-03-12 18:31:52,923 - DEBUG - write_channel: b'\n'
+2020-03-12 18:31:53,024 - DEBUG - read_channel: 
+R1#
+2020-03-12 18:31:53,225 - DEBUG - read_channel: 
+2020-03-12 18:31:53,225 - DEBUG - [find_prompt()]: prompt is R1#
+2020-03-12 18:31:53,526 - DEBUG - read_channel: 
+2020-03-12 18:31:53,527 - DEBUG - write_channel: b'show cdp neighbors detail\n'
+2020-03-12 18:31:53,527 - DEBUG - Pattern is: show\ cdp\ neighbors\ detail
+2020-03-12 18:31:53,532 - DEBUG - _read_channel_expect read_data: s
+2020-03-12 18:31:53,633 - DEBUG - _read_channel_expect read_data: how cdp neighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 173 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 156 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 167 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 130 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R1#
+2020-03-12 18:31:53,633 - DEBUG - Pattern found: show\ cdp\ neighbors\ detail show cdp neighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 173 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 156 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 167 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 130 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R1#
+2020-03-12 18:31:53,635 - DEBUG - write_channel: b'\n'
+2020-03-12 18:31:53,635 - DEBUG - Pattern is: #
+2020-03-12 18:31:53,640 - DEBUG - _read_channel_expect read_data: 
+
+2020-03-12 18:31:53,745 - DEBUG - _read_channel_expect read_data: R1#
+2020-03-12 18:31:53,746 - DEBUG - Pattern found: # 
+R1#
+2020-03-12 18:31:53,746 - DEBUG - exit_config_mode: 
+2020-03-12 18:31:53,746 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:31:53,749 - DEBUG - EOF in transport thread
+2020-03-12 18:31:53,761 - DEBUG - starting thread (client mode): 0xdd536668
+2020-03-12 18:31:53,762 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-03-12 18:31:53,762 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-03-12 18:31:53,762 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-03-12 18:31:53,774 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-03-12 18:31:53,774 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-03-12 18:31:53,774 - DEBUG - HostKey agreed: ssh-rsa
+2020-03-12 18:31:53,774 - DEBUG - Cipher agreed: aes128-ctr
+2020-03-12 18:31:53,775 - DEBUG - MAC agreed: hmac-sha1
+2020-03-12 18:31:53,775 - DEBUG - Compression agreed: none
+2020-03-12 18:31:53,978 - DEBUG - Got server p (2048 bits)
+2020-03-12 18:31:54,150 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-03-12 18:31:54,151 - DEBUG - Switch to new keys ...
+2020-03-12 18:31:54,153 - DEBUG - Adding ssh-rsa host key for 10.0.0.102: b'665dd22ee6c66efa3a31010241b96628'
+2020-03-12 18:31:54,353 - DEBUG - userauth is OK
+2020-03-12 18:31:54,608 - INFO - Authentication (password) successful!
+2020-03-12 18:31:54,609 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-03-12 18:31:54,610 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-03-12 18:31:54,610 - DEBUG - Secsh channel 0 opened.
+2020-03-12 18:31:54,612 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:31:54,613 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:31:55,715 - DEBUG - read_channel: 
+R2#
+2020-03-12 18:31:55,816 - DEBUG - read_channel: 
+2020-03-12 18:31:57,818 - DEBUG - read_channel: 
+2020-03-12 18:31:57,919 - DEBUG - read_channel: 
+2020-03-12 18:31:57,920 - DEBUG - write_channel: b'\n'
+2020-03-12 18:31:58,021 - DEBUG - read_channel: 
+R2#
+2020-03-12 18:31:58,222 - DEBUG - read_channel: 
+2020-03-12 18:31:58,223 - DEBUG - [find_prompt()]: prompt is R2#
+2020-03-12 18:31:58,424 - DEBUG - read_channel: 
+2020-03-12 18:31:58,424 - DEBUG - In disable_paging
+2020-03-12 18:31:58,424 - DEBUG - Command: terminal length 0
+
+2020-03-12 18:31:58,425 - DEBUG - write_channel: b'terminal length 0\n'
+2020-03-12 18:31:58,425 - DEBUG - Pattern is: terminal\ length\ 0
+2020-03-12 18:31:58,438 - DEBUG - _read_channel_expect read_data: te
+2020-03-12 18:31:58,539 - DEBUG - _read_channel_expect read_data: rminal length 0
+R2#
+2020-03-12 18:31:58,539 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R2#
+2020-03-12 18:31:58,539 - DEBUG - terminal length 0
+R2#
+2020-03-12 18:31:58,539 - DEBUG - Exiting disable_paging
+2020-03-12 18:31:58,540 - DEBUG - write_channel: b'terminal width 511\n'
+2020-03-12 18:31:58,540 - DEBUG - Pattern is: terminal\ width\ 511
+2020-03-12 18:31:58,566 - DEBUG - _read_channel_expect read_data: terminal w
+2020-03-12 18:31:58,667 - DEBUG - _read_channel_expect read_data: idth 511
+R2#
+2020-03-12 18:31:58,667 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R2#
+2020-03-12 18:31:59,071 - DEBUG - read_channel: 
+2020-03-12 18:31:59,172 - DEBUG - read_channel: 
+2020-03-12 18:31:59,172 - DEBUG - write_channel: b'\n'
+2020-03-12 18:31:59,273 - DEBUG - read_channel: 
+R2#
+2020-03-12 18:31:59,474 - DEBUG - read_channel: 
+2020-03-12 18:31:59,474 - DEBUG - [find_prompt()]: prompt is R2#
+2020-03-12 18:31:59,775 - DEBUG - read_channel: 
+2020-03-12 18:31:59,776 - DEBUG - write_channel: b'show cdp neighbors detail\n'
+2020-03-12 18:31:59,776 - DEBUG - Pattern is: show\ cdp\ neighbors\ detail
+2020-03-12 18:31:59,784 - DEBUG - _read_channel_expect read_data: show cdp neighbor
+2020-03-12 18:31:59,885 - DEBUG - _read_channel_expect read_data: s detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 166 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 150 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 159 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 124 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R2#
+2020-03-12 18:31:59,885 - DEBUG - Pattern found: show\ cdp\ neighbors\ detail show cdp neighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 166 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 150 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 159 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 124 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R2#
+2020-03-12 18:31:59,886 - DEBUG - write_channel: b'\n'
+2020-03-12 18:31:59,886 - DEBUG - Pattern is: #
+2020-03-12 18:31:59,892 - DEBUG - _read_channel_expect read_data: 
+R2#
+2020-03-12 18:31:59,892 - DEBUG - Pattern found: # 
+R2#
+2020-03-12 18:31:59,892 - DEBUG - exit_config_mode: 
+2020-03-12 18:31:59,893 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:31:59,897 - DEBUG - starting thread (client mode): 0xdd5365f8
+2020-03-12 18:31:59,898 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-03-12 18:31:59,952 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-03-12 18:31:59,953 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-03-12 18:31:59,955 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-03-12 18:31:59,955 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-03-12 18:31:59,955 - DEBUG - HostKey agreed: ssh-rsa
+2020-03-12 18:31:59,956 - DEBUG - Cipher agreed: aes128-ctr
+2020-03-12 18:31:59,956 - DEBUG - MAC agreed: hmac-sha1
+2020-03-12 18:31:59,956 - DEBUG - Compression agreed: none
+2020-03-12 18:31:59,957 - DEBUG - Got server p (2048 bits)
+2020-03-12 18:31:59,996 - DEBUG - EOF in transport thread
+2020-03-12 18:32:00,100 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-03-12 18:32:00,101 - DEBUG - Switch to new keys ...
+2020-03-12 18:32:00,102 - DEBUG - Adding ssh-rsa host key for 10.0.0.103: b'79c02bf140f74955af9b6ffbae8c3e68'
+2020-03-12 18:32:00,301 - DEBUG - userauth is OK
+2020-03-12 18:32:00,555 - INFO - Authentication (password) successful!
+2020-03-12 18:32:00,556 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-03-12 18:32:00,557 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-03-12 18:32:00,557 - DEBUG - Secsh channel 0 opened.
+2020-03-12 18:32:00,559 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:32:00,559 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:32:01,678 - DEBUG - read_channel: 
+R3#
+2020-03-12 18:32:01,780 - DEBUG - read_channel: 
+2020-03-12 18:32:03,788 - DEBUG - read_channel: 
+2020-03-12 18:32:03,890 - DEBUG - read_channel: 
+2020-03-12 18:32:03,892 - DEBUG - write_channel: b'\n'
+2020-03-12 18:32:03,993 - DEBUG - read_channel: 
+R3#
+2020-03-12 18:32:04,198 - DEBUG - read_channel: 
+2020-03-12 18:32:04,199 - DEBUG - [find_prompt()]: prompt is R3#
+2020-03-12 18:32:04,405 - DEBUG - read_channel: 
+2020-03-12 18:32:04,405 - DEBUG - In disable_paging
+2020-03-12 18:32:04,405 - DEBUG - Command: terminal length 0
+
+2020-03-12 18:32:04,406 - DEBUG - write_channel: b'terminal length 0\n'
+2020-03-12 18:32:04,406 - DEBUG - Pattern is: terminal\ length\ 0
+2020-03-12 18:32:04,410 - DEBUG - _read_channel_expect read_data: t
+2020-03-12 18:32:04,511 - DEBUG - _read_channel_expect read_data: erminal length 0
+R3#
+2020-03-12 18:32:04,511 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R3#
+2020-03-12 18:32:04,511 - DEBUG - terminal length 0
+R3#
+2020-03-12 18:32:04,511 - DEBUG - Exiting disable_paging
+2020-03-12 18:32:04,512 - DEBUG - write_channel: b'terminal width 511\n'
+2020-03-12 18:32:04,512 - DEBUG - Pattern is: terminal\ width\ 511
+2020-03-12 18:32:04,519 - DEBUG - _read_channel_expect read_data: termin
+2020-03-12 18:32:04,619 - DEBUG - _read_channel_expect read_data: al width 511
+R3#
+2020-03-12 18:32:04,619 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R3#
+2020-03-12 18:32:05,024 - DEBUG - read_channel: 
+2020-03-12 18:32:05,125 - DEBUG - read_channel: 
+2020-03-12 18:32:05,125 - DEBUG - write_channel: b'\n'
+2020-03-12 18:32:05,226 - DEBUG - read_channel: 
+R3#
+2020-03-12 18:32:05,427 - DEBUG - read_channel: 
+2020-03-12 18:32:05,427 - DEBUG - [find_prompt()]: prompt is R3#
+2020-03-12 18:32:05,729 - DEBUG - read_channel: 
+2020-03-12 18:32:05,729 - DEBUG - write_channel: b'show cdp neighbors detail\n'
+2020-03-12 18:32:05,729 - DEBUG - Pattern is: show\ cdp\ neighbors\ detail
+2020-03-12 18:32:05,739 - DEBUG - _read_channel_expect read_data: show cdp neighbor
+2020-03-12 18:32:05,840 - DEBUG - _read_channel_expect read_data: s detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 160 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 144 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 153 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 155 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+
+Total cdp entries displayed : 4
+R3#
+2020-03-12 18:32:05,841 - DEBUG - Pattern found: show\ cdp\ neighbors\ detail show cdp neighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 160 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 144 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 153 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 155 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+
+Total cdp entries displayed : 4
+R3#
+2020-03-12 18:32:05,842 - DEBUG - write_channel: b'\n'
+2020-03-12 18:32:05,842 - DEBUG - Pattern is: #
+2020-03-12 18:32:05,848 - DEBUG - _read_channel_expect read_data: 
+
+2020-03-12 18:32:05,949 - DEBUG - _read_channel_expect read_data: R3#
+2020-03-12 18:32:05,949 - DEBUG - Pattern found: # 
+R3#
+2020-03-12 18:32:05,949 - DEBUG - exit_config_mode: 
+2020-03-12 18:32:05,950 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:32:05,954 - DEBUG - EOF in transport thread
+2020-03-12 18:32:05,957 - DEBUG - starting thread (client mode): 0xdd4e2f98
+2020-03-12 18:32:05,957 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-03-12 18:32:05,971 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-03-12 18:32:05,971 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-03-12 18:32:05,973 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-03-12 18:32:05,973 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-03-12 18:32:05,973 - DEBUG - HostKey agreed: ssh-rsa
+2020-03-12 18:32:05,973 - DEBUG - Cipher agreed: aes128-ctr
+2020-03-12 18:32:05,973 - DEBUG - MAC agreed: hmac-sha1
+2020-03-12 18:32:05,974 - DEBUG - Compression agreed: none
+2020-03-12 18:32:05,975 - DEBUG - Got server p (2048 bits)
+2020-03-12 18:32:06,100 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-03-12 18:32:06,102 - DEBUG - Switch to new keys ...
+2020-03-12 18:32:06,103 - DEBUG - Adding ssh-rsa host key for 10.0.0.104: b'f8cf9cc85e9e42441d33df4cc179414c'
+2020-03-12 18:32:06,302 - DEBUG - userauth is OK
+2020-03-12 18:32:06,558 - INFO - Authentication (password) successful!
+2020-03-12 18:32:06,559 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-03-12 18:32:06,568 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-03-12 18:32:06,568 - DEBUG - Secsh channel 0 opened.
+2020-03-12 18:32:06,571 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:32:06,575 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:32:07,677 - DEBUG - read_channel: 
+R4#
+2020-03-12 18:32:07,778 - DEBUG - read_channel: 
+2020-03-12 18:32:09,786 - DEBUG - read_channel: 
+2020-03-12 18:32:09,890 - DEBUG - read_channel: 
+2020-03-12 18:32:09,891 - DEBUG - write_channel: b'\n'
+2020-03-12 18:32:09,994 - DEBUG - read_channel: 
+R4#
+2020-03-12 18:32:10,207 - DEBUG - read_channel: 
+2020-03-12 18:32:10,207 - DEBUG - [find_prompt()]: prompt is R4#
+2020-03-12 18:32:10,414 - DEBUG - read_channel: 
+2020-03-12 18:32:10,415 - DEBUG - In disable_paging
+2020-03-12 18:32:10,415 - DEBUG - Command: terminal length 0
+
+2020-03-12 18:32:10,415 - DEBUG - write_channel: b'terminal length 0\n'
+2020-03-12 18:32:10,415 - DEBUG - Pattern is: terminal\ length\ 0
+2020-03-12 18:32:10,428 - DEBUG - _read_channel_expect read_data: ter
+2020-03-12 18:32:10,538 - DEBUG - _read_channel_expect read_data: minal length 0
+R4#
+2020-03-12 18:32:10,538 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R4#
+2020-03-12 18:32:10,538 - DEBUG - terminal length 0
+R4#
+2020-03-12 18:32:10,538 - DEBUG - Exiting disable_paging
+2020-03-12 18:32:10,539 - DEBUG - write_channel: b'terminal width 511\n'
+2020-03-12 18:32:10,539 - DEBUG - Pattern is: terminal\ width\ 511
+2020-03-12 18:32:10,554 - DEBUG - _read_channel_expect read_data: terminal wi
+2020-03-12 18:32:10,656 - DEBUG - _read_channel_expect read_data: dth 511
+R4#
+2020-03-12 18:32:10,656 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R4#
+2020-03-12 18:32:11,065 - DEBUG - read_channel: 
+2020-03-12 18:32:11,173 - DEBUG - read_channel: 
+2020-03-12 18:32:11,174 - DEBUG - write_channel: b'\n'
+2020-03-12 18:32:11,279 - DEBUG - read_channel: 
+R4#
+2020-03-12 18:32:11,493 - DEBUG - read_channel: 
+2020-03-12 18:32:11,493 - DEBUG - [find_prompt()]: prompt is R4#
+2020-03-12 18:32:11,803 - DEBUG - read_channel: 
+2020-03-12 18:32:11,804 - DEBUG - write_channel: b'show cdp neighbors detail\n'
+2020-03-12 18:32:11,805 - DEBUG - Pattern is: show\ cdp\ neighbors\ detail
+2020-03-12 18:32:11,811 - DEBUG - _read_channel_expect read_data: show
+2020-03-12 18:32:11,911 - DEBUG - _read_channel_expect read_data:  cdp neighbors detail
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 138 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 147 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 149 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 172 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R4#
+2020-03-12 18:32:11,911 - DEBUG - Pattern found: show\ cdp\ neighbors\ detail show cdp neighbors detail
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 138 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 147 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 149 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 172 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R4#
+2020-03-12 18:32:11,913 - DEBUG - write_channel: b'\n'
+2020-03-12 18:32:11,913 - DEBUG - Pattern is: #
+2020-03-12 18:32:11,918 - DEBUG - _read_channel_expect read_data: 
+
+2020-03-12 18:32:12,019 - DEBUG - _read_channel_expect read_data: R4#
+2020-03-12 18:32:12,019 - DEBUG - Pattern found: # 
+R4#
+2020-03-12 18:32:12,019 - DEBUG - exit_config_mode: 
+2020-03-12 18:32:12,020 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:32:12,022 - DEBUG - EOF in transport thread
+2020-03-12 18:32:12,024 - DEBUG - starting thread (client mode): 0xdd4deba8
+2020-03-12 18:32:12,024 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-03-12 18:32:12,072 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-03-12 18:32:12,072 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-03-12 18:32:12,074 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-03-12 18:32:12,074 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-03-12 18:32:12,075 - DEBUG - HostKey agreed: ssh-rsa
+2020-03-12 18:32:12,075 - DEBUG - Cipher agreed: aes128-ctr
+2020-03-12 18:32:12,075 - DEBUG - MAC agreed: hmac-sha1
+2020-03-12 18:32:12,075 - DEBUG - Compression agreed: none
+2020-03-12 18:32:12,076 - DEBUG - Got server p (2048 bits)
+2020-03-12 18:32:12,256 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-03-12 18:32:12,256 - DEBUG - Switch to new keys ...
+2020-03-12 18:32:12,257 - DEBUG - Adding ssh-rsa host key for 10.0.0.105: b'2bc387c6a9ccc44f631ac989dc0bbdf4'
+2020-03-12 18:32:12,461 - DEBUG - userauth is OK
+2020-03-12 18:32:12,718 - INFO - Authentication (password) successful!
+2020-03-12 18:32:12,719 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-03-12 18:32:12,720 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-03-12 18:32:12,721 - DEBUG - Secsh channel 0 opened.
+2020-03-12 18:32:12,722 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:32:12,723 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:32:13,825 - DEBUG - read_channel: 
+R5#
+2020-03-12 18:32:13,926 - DEBUG - read_channel: 
+2020-03-12 18:32:15,928 - DEBUG - read_channel: 
+2020-03-12 18:32:16,029 - DEBUG - read_channel: 
+2020-03-12 18:32:16,030 - DEBUG - write_channel: b'\n'
+2020-03-12 18:32:16,136 - DEBUG - read_channel: 
+R5#
+2020-03-12 18:32:16,337 - DEBUG - read_channel: 
+2020-03-12 18:32:16,337 - DEBUG - [find_prompt()]: prompt is R5#
+2020-03-12 18:32:16,538 - DEBUG - read_channel: 
+2020-03-12 18:32:16,538 - DEBUG - In disable_paging
+2020-03-12 18:32:16,539 - DEBUG - Command: terminal length 0
+
+2020-03-12 18:32:16,539 - DEBUG - write_channel: b'terminal length 0\n'
+2020-03-12 18:32:16,539 - DEBUG - Pattern is: terminal\ length\ 0
+2020-03-12 18:32:16,552 - DEBUG - _read_channel_expect read_data: te
+2020-03-12 18:32:16,660 - DEBUG - _read_channel_expect read_data: rminal length 0
+R5#
+2020-03-12 18:32:16,660 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R5#
+2020-03-12 18:32:16,660 - DEBUG - terminal length 0
+R5#
+2020-03-12 18:32:16,661 - DEBUG - Exiting disable_paging
+2020-03-12 18:32:16,662 - DEBUG - write_channel: b'terminal width 511\n'
+2020-03-12 18:32:16,662 - DEBUG - Pattern is: terminal\ width\ 511
+2020-03-12 18:32:16,688 - DEBUG - _read_channel_expect read_data: terminal wi
+2020-03-12 18:32:16,794 - DEBUG - _read_channel_expect read_data: dth 511
+R5#
+2020-03-12 18:32:16,795 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R5#
+2020-03-12 18:32:17,197 - DEBUG - read_channel: 
+2020-03-12 18:32:17,297 - DEBUG - read_channel: 
+2020-03-12 18:32:17,298 - DEBUG - write_channel: b'\n'
+2020-03-12 18:32:17,399 - DEBUG - read_channel: 
+R5#
+2020-03-12 18:32:17,600 - DEBUG - read_channel: 
+2020-03-12 18:32:17,600 - DEBUG - [find_prompt()]: prompt is R5#
+2020-03-12 18:32:17,901 - DEBUG - read_channel: 
+2020-03-12 18:32:17,902 - DEBUG - write_channel: b'show cdp neighbors detail\n'
+2020-03-12 18:32:17,902 - DEBUG - Pattern is: show\ cdp\ neighbors\ detail
+2020-03-12 18:32:17,912 - DEBUG - _read_channel_expect read_data: show cdp neighbor
+2020-03-12 18:32:18,013 - DEBUG - _read_channel_expect read_data: s detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 148 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 141 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 142 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 166 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R5#
+2020-03-12 18:32:18,013 - DEBUG - Pattern found: show\ cdp\ neighbors\ detail show cdp neighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 148 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 141 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 142 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 166 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R5#
+2020-03-12 18:32:18,015 - DEBUG - write_channel: b'\n'
+2020-03-12 18:32:18,015 - DEBUG - Pattern is: #
+2020-03-12 18:32:18,020 - DEBUG - _read_channel_expect read_data: 
+
+2020-03-12 18:32:18,121 - DEBUG - _read_channel_expect read_data: R5#
+2020-03-12 18:32:18,121 - DEBUG - Pattern found: # 
+R5#
+2020-03-12 18:32:18,122 - DEBUG - exit_config_mode: 
+2020-03-12 18:32:18,122 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:34:27,687 - DEBUG - starting thread (client mode): 0x2896d198
+2020-03-12 18:34:27,688 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-03-12 18:34:27,722 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-03-12 18:34:27,722 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-03-12 18:34:27,724 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-03-12 18:34:27,725 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-03-12 18:34:27,725 - DEBUG - HostKey agreed: ssh-rsa
+2020-03-12 18:34:27,725 - DEBUG - Cipher agreed: aes128-ctr
+2020-03-12 18:34:27,725 - DEBUG - MAC agreed: hmac-sha1
+2020-03-12 18:34:27,725 - DEBUG - Compression agreed: none
+2020-03-12 18:34:27,727 - DEBUG - Got server p (2048 bits)
+2020-03-12 18:34:27,870 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-03-12 18:34:27,871 - DEBUG - Switch to new keys ...
+2020-03-12 18:34:27,873 - DEBUG - Adding ssh-rsa host key for 10.0.0.101: b'3c773f5ec34ee7fd03bc4207379f29f8'
+2020-03-12 18:34:28,077 - DEBUG - userauth is OK
+2020-03-12 18:34:28,330 - INFO - Authentication (password) successful!
+2020-03-12 18:34:28,331 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-03-12 18:34:28,332 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-03-12 18:34:28,333 - DEBUG - Secsh channel 0 opened.
+2020-03-12 18:34:28,334 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:34:28,335 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:34:29,437 - DEBUG - read_channel: R1#
+2020-03-12 18:34:29,538 - DEBUG - read_channel: 
+2020-03-12 18:34:31,545 - DEBUG - read_channel: 
+2020-03-12 18:34:31,646 - DEBUG - read_channel: 
+2020-03-12 18:34:31,648 - DEBUG - write_channel: b'\n'
+2020-03-12 18:34:31,748 - DEBUG - read_channel: 
+R1#
+2020-03-12 18:34:31,950 - DEBUG - read_channel: 
+2020-03-12 18:34:31,950 - DEBUG - [find_prompt()]: prompt is R1#
+2020-03-12 18:34:32,151 - DEBUG - read_channel: 
+2020-03-12 18:34:32,151 - DEBUG - In disable_paging
+2020-03-12 18:34:32,151 - DEBUG - Command: terminal length 0
+
+2020-03-12 18:34:32,152 - DEBUG - write_channel: b'terminal length 0\n'
+2020-03-12 18:34:32,152 - DEBUG - Pattern is: terminal\ length\ 0
+2020-03-12 18:34:32,158 - DEBUG - _read_channel_expect read_data: t
+2020-03-12 18:34:32,259 - DEBUG - _read_channel_expect read_data: erminal length 0
+R1#
+2020-03-12 18:34:32,259 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R1#
+2020-03-12 18:34:32,259 - DEBUG - terminal length 0
+R1#
+2020-03-12 18:34:32,259 - DEBUG - Exiting disable_paging
+2020-03-12 18:34:32,260 - DEBUG - write_channel: b'terminal width 511\n'
+2020-03-12 18:34:32,260 - DEBUG - Pattern is: terminal\ width\ 511
+2020-03-12 18:34:32,271 - DEBUG - _read_channel_expect read_data: termin
+2020-03-12 18:34:32,372 - DEBUG - _read_channel_expect read_data: al width 511
+R1#
+2020-03-12 18:34:32,372 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R1#
+2020-03-12 18:34:32,773 - DEBUG - read_channel: 
+2020-03-12 18:34:32,874 - DEBUG - read_channel: 
+2020-03-12 18:34:32,874 - DEBUG - write_channel: b'\n'
+2020-03-12 18:34:32,975 - DEBUG - read_channel: 
+R1#
+2020-03-12 18:34:33,181 - DEBUG - read_channel: 
+2020-03-12 18:34:33,182 - DEBUG - [find_prompt()]: prompt is R1#
+2020-03-12 18:34:33,483 - DEBUG - read_channel: 
+2020-03-12 18:34:33,483 - DEBUG - write_channel: b'show cdp neighbors detail\n'
+2020-03-12 18:34:33,484 - DEBUG - Pattern is: show\ cdp\ neighbors\ detail
+2020-03-12 18:34:33,492 - DEBUG - _read_channel_expect read_data: show cdp nei
+2020-03-12 18:34:33,596 - DEBUG - _read_channel_expect read_data: ghbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 169 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 154 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 172 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 137 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R1#
+2020-03-12 18:34:33,596 - DEBUG - Pattern found: show\ cdp\ neighbors\ detail show cdp neighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 169 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 154 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 172 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 137 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R1#
+2020-03-12 18:34:33,597 - DEBUG - write_channel: b'\n'
+2020-03-12 18:34:33,597 - DEBUG - Pattern is: #
+2020-03-12 18:34:33,603 - DEBUG - _read_channel_expect read_data: 
+R1#
+2020-03-12 18:34:33,603 - DEBUG - Pattern found: # 
+R1#
+2020-03-12 18:34:33,604 - DEBUG - exit_config_mode: 
+2020-03-12 18:34:33,604 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:34:33,615 - DEBUG - starting thread (client mode): 0x289c86d8
+2020-03-12 18:34:33,616 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-03-12 18:34:33,617 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-03-12 18:34:33,617 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-03-12 18:34:33,618 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-03-12 18:34:33,619 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-03-12 18:34:33,619 - DEBUG - HostKey agreed: ssh-rsa
+2020-03-12 18:34:33,619 - DEBUG - Cipher agreed: aes128-ctr
+2020-03-12 18:34:33,619 - DEBUG - MAC agreed: hmac-sha1
+2020-03-12 18:34:33,619 - DEBUG - Compression agreed: none
+2020-03-12 18:34:33,703 - DEBUG - EOF in transport thread
+2020-03-12 18:34:33,820 - DEBUG - Got server p (2048 bits)
+2020-03-12 18:34:33,962 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-03-12 18:34:33,963 - DEBUG - Switch to new keys ...
+2020-03-12 18:34:33,964 - DEBUG - Adding ssh-rsa host key for 10.0.0.102: b'665dd22ee6c66efa3a31010241b96628'
+2020-03-12 18:34:34,166 - DEBUG - userauth is OK
+2020-03-12 18:34:34,421 - INFO - Authentication (password) successful!
+2020-03-12 18:34:34,422 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-03-12 18:34:34,423 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-03-12 18:34:34,423 - DEBUG - Secsh channel 0 opened.
+2020-03-12 18:34:34,424 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:34:34,425 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:34:35,527 - DEBUG - read_channel: R2#
+2020-03-12 18:34:35,628 - DEBUG - read_channel: 
+2020-03-12 18:34:37,630 - DEBUG - read_channel: 
+2020-03-12 18:34:37,731 - DEBUG - read_channel: 
+2020-03-12 18:34:37,732 - DEBUG - write_channel: b'\n'
+2020-03-12 18:34:37,832 - DEBUG - read_channel: 
+R2#
+2020-03-12 18:34:38,033 - DEBUG - read_channel: 
+2020-03-12 18:34:38,033 - DEBUG - [find_prompt()]: prompt is R2#
+2020-03-12 18:34:38,234 - DEBUG - read_channel: 
+2020-03-12 18:34:38,234 - DEBUG - In disable_paging
+2020-03-12 18:34:38,234 - DEBUG - Command: terminal length 0
+
+2020-03-12 18:34:38,235 - DEBUG - write_channel: b'terminal length 0\n'
+2020-03-12 18:34:38,235 - DEBUG - Pattern is: terminal\ length\ 0
+2020-03-12 18:34:38,240 - DEBUG - _read_channel_expect read_data: t
+2020-03-12 18:34:38,345 - DEBUG - _read_channel_expect read_data: erminal length 0
+R2#
+2020-03-12 18:34:38,346 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R2#
+2020-03-12 18:34:38,346 - DEBUG - terminal length 0
+R2#
+2020-03-12 18:34:38,346 - DEBUG - Exiting disable_paging
+2020-03-12 18:34:38,346 - DEBUG - write_channel: b'terminal width 511\n'
+2020-03-12 18:34:38,346 - DEBUG - Pattern is: terminal\ width\ 511
+2020-03-12 18:34:38,352 - DEBUG - _read_channel_expect read_data: t
+2020-03-12 18:34:38,452 - DEBUG - _read_channel_expect read_data: erminal width 511
+R2#
+2020-03-12 18:34:38,453 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R2#
+2020-03-12 18:34:38,854 - DEBUG - read_channel: 
+2020-03-12 18:34:38,954 - DEBUG - read_channel: 
+2020-03-12 18:34:38,955 - DEBUG - write_channel: b'\n'
+2020-03-12 18:34:39,055 - DEBUG - read_channel: 
+R2#
+2020-03-12 18:34:39,256 - DEBUG - read_channel: 
+2020-03-12 18:34:39,257 - DEBUG - [find_prompt()]: prompt is R2#
+2020-03-12 18:34:39,558 - DEBUG - read_channel: 
+2020-03-12 18:34:39,558 - DEBUG - write_channel: b'show cdp neighbors detail\n'
+2020-03-12 18:34:39,558 - DEBUG - Pattern is: show\ cdp\ neighbors\ detail
+2020-03-12 18:34:39,568 - DEBUG - _read_channel_expect read_data: show cdp neighbor
+2020-03-12 18:34:39,669 - DEBUG - _read_channel_expect read_data: s detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 163 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 148 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 159 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 131 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R2#
+2020-03-12 18:34:39,669 - DEBUG - Pattern found: show\ cdp\ neighbors\ detail show cdp neighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 163 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 148 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 159 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 131 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R2#
+2020-03-12 18:34:39,670 - DEBUG - write_channel: b'\n'
+2020-03-12 18:34:39,670 - DEBUG - Pattern is: #
+2020-03-12 18:34:39,677 - DEBUG - _read_channel_expect read_data: 
+R2#
+2020-03-12 18:34:39,677 - DEBUG - Pattern found: # 
+R2#
+2020-03-12 18:34:39,677 - DEBUG - exit_config_mode: 
+2020-03-12 18:34:39,677 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:34:39,688 - DEBUG - EOF in transport thread
+2020-03-12 18:34:39,690 - DEBUG - starting thread (client mode): 0x289c86a0
+2020-03-12 18:34:39,691 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-03-12 18:34:39,728 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-03-12 18:34:39,729 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-03-12 18:34:39,751 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-03-12 18:34:39,751 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-03-12 18:34:39,751 - DEBUG - HostKey agreed: ssh-rsa
+2020-03-12 18:34:39,751 - DEBUG - Cipher agreed: aes128-ctr
+2020-03-12 18:34:39,752 - DEBUG - MAC agreed: hmac-sha1
+2020-03-12 18:34:39,752 - DEBUG - Compression agreed: none
+2020-03-12 18:34:39,753 - DEBUG - Got server p (2048 bits)
+2020-03-12 18:34:39,939 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-03-12 18:34:39,940 - DEBUG - Switch to new keys ...
+2020-03-12 18:34:39,941 - DEBUG - Adding ssh-rsa host key for 10.0.0.103: b'79c02bf140f74955af9b6ffbae8c3e68'
+2020-03-12 18:34:40,143 - DEBUG - userauth is OK
+2020-03-12 18:34:40,401 - INFO - Authentication (password) successful!
+2020-03-12 18:34:40,402 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-03-12 18:34:40,404 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-03-12 18:34:40,404 - DEBUG - Secsh channel 0 opened.
+2020-03-12 18:34:40,405 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:34:40,406 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:34:41,508 - DEBUG - read_channel: R3#
+2020-03-12 18:34:41,609 - DEBUG - read_channel: 
+2020-03-12 18:34:43,612 - DEBUG - read_channel: 
+2020-03-12 18:34:43,713 - DEBUG - read_channel: 
+2020-03-12 18:34:43,714 - DEBUG - write_channel: b'\n'
+2020-03-12 18:34:43,821 - DEBUG - read_channel: 
+R3#
+2020-03-12 18:34:44,022 - DEBUG - read_channel: 
+2020-03-12 18:34:44,022 - DEBUG - [find_prompt()]: prompt is R3#
+2020-03-12 18:34:44,225 - DEBUG - read_channel: 
+2020-03-12 18:34:44,226 - DEBUG - In disable_paging
+2020-03-12 18:34:44,226 - DEBUG - Command: terminal length 0
+
+2020-03-12 18:34:44,227 - DEBUG - write_channel: b'terminal length 0\n'
+2020-03-12 18:34:44,228 - DEBUG - Pattern is: terminal\ length\ 0
+2020-03-12 18:34:44,233 - DEBUG - _read_channel_expect read_data: t
+2020-03-12 18:34:44,334 - DEBUG - _read_channel_expect read_data: erminal length 0
+R3#
+2020-03-12 18:34:44,334 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R3#
+2020-03-12 18:34:44,334 - DEBUG - terminal length 0
+R3#
+2020-03-12 18:34:44,334 - DEBUG - Exiting disable_paging
+2020-03-12 18:34:44,335 - DEBUG - write_channel: b'terminal width 511\n'
+2020-03-12 18:34:44,335 - DEBUG - Pattern is: terminal\ width\ 511
+2020-03-12 18:34:44,342 - DEBUG - _read_channel_expect read_data: termin
+2020-03-12 18:34:44,443 - DEBUG - _read_channel_expect read_data: al width 511
+R3#
+2020-03-12 18:34:44,443 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R3#
+2020-03-12 18:34:44,844 - DEBUG - read_channel: 
+2020-03-12 18:34:44,945 - DEBUG - read_channel: 
+2020-03-12 18:34:44,945 - DEBUG - write_channel: b'\n'
+2020-03-12 18:34:45,046 - DEBUG - read_channel: 
+R3#
+2020-03-12 18:34:45,251 - DEBUG - read_channel: 
+2020-03-12 18:34:45,252 - DEBUG - [find_prompt()]: prompt is R3#
+2020-03-12 18:34:45,552 - DEBUG - read_channel: 
+2020-03-12 18:34:45,553 - DEBUG - write_channel: b'show cdp neighbors detail\n'
+2020-03-12 18:34:45,553 - DEBUG - Pattern is: show\ cdp\ neighbors\ detail
+2020-03-12 18:34:45,561 - DEBUG - _read_channel_expect read_data: show cdp ne
+2020-03-12 18:34:45,662 - DEBUG - _read_channel_expect read_data: ighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 157 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 142 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 153 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 159 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+
+Total cdp entries displayed : 4
+R3#
+2020-03-12 18:34:45,662 - DEBUG - Pattern found: show\ cdp\ neighbors\ detail show cdp neighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 157 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 142 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 153 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 159 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+
+Total cdp entries displayed : 4
+R3#
+2020-03-12 18:34:45,664 - DEBUG - write_channel: b'\n'
+2020-03-12 18:34:45,664 - DEBUG - Pattern is: #
+2020-03-12 18:34:45,670 - DEBUG - _read_channel_expect read_data: 
+R3#
+2020-03-12 18:34:45,670 - DEBUG - Pattern found: # 
+R3#
+2020-03-12 18:34:45,670 - DEBUG - exit_config_mode: 
+2020-03-12 18:34:45,671 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:34:45,679 - DEBUG - starting thread (client mode): 0x289c8780
+2020-03-12 18:34:45,680 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-03-12 18:34:45,685 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-03-12 18:34:45,685 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-03-12 18:34:45,687 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-03-12 18:34:45,687 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-03-12 18:34:45,687 - DEBUG - HostKey agreed: ssh-rsa
+2020-03-12 18:34:45,687 - DEBUG - Cipher agreed: aes128-ctr
+2020-03-12 18:34:45,688 - DEBUG - MAC agreed: hmac-sha1
+2020-03-12 18:34:45,688 - DEBUG - Compression agreed: none
+2020-03-12 18:34:45,689 - DEBUG - Got server p (2048 bits)
+2020-03-12 18:34:45,770 - DEBUG - EOF in transport thread
+2020-03-12 18:34:45,823 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-03-12 18:34:45,824 - DEBUG - Switch to new keys ...
+2020-03-12 18:34:45,825 - DEBUG - Adding ssh-rsa host key for 10.0.0.104: b'f8cf9cc85e9e42441d33df4cc179414c'
+2020-03-12 18:34:46,028 - DEBUG - userauth is OK
+2020-03-12 18:34:46,285 - INFO - Authentication (password) successful!
+2020-03-12 18:34:46,286 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-03-12 18:34:46,287 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-03-12 18:34:46,288 - DEBUG - Secsh channel 0 opened.
+2020-03-12 18:34:46,289 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:34:46,290 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:34:47,393 - DEBUG - read_channel: R4#
+2020-03-12 18:34:47,494 - DEBUG - read_channel: 
+2020-03-12 18:34:49,502 - DEBUG - read_channel: 
+2020-03-12 18:34:49,603 - DEBUG - read_channel: 
+2020-03-12 18:34:49,604 - DEBUG - write_channel: b'\n'
+2020-03-12 18:34:49,705 - DEBUG - read_channel: 
+R4#
+2020-03-12 18:34:49,906 - DEBUG - read_channel: 
+2020-03-12 18:34:49,906 - DEBUG - [find_prompt()]: prompt is R4#
+2020-03-12 18:34:50,107 - DEBUG - read_channel: 
+2020-03-12 18:34:50,107 - DEBUG - In disable_paging
+2020-03-12 18:34:50,107 - DEBUG - Command: terminal length 0
+
+2020-03-12 18:34:50,108 - DEBUG - write_channel: b'terminal length 0\n'
+2020-03-12 18:34:50,108 - DEBUG - Pattern is: terminal\ length\ 0
+2020-03-12 18:34:50,113 - DEBUG - _read_channel_expect read_data: t
+2020-03-12 18:34:50,214 - DEBUG - _read_channel_expect read_data: erminal length 0
+R4#
+2020-03-12 18:34:50,215 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R4#
+2020-03-12 18:34:50,215 - DEBUG - terminal length 0
+R4#
+2020-03-12 18:34:50,215 - DEBUG - Exiting disable_paging
+2020-03-12 18:34:50,216 - DEBUG - write_channel: b'terminal width 511\n'
+2020-03-12 18:34:50,216 - DEBUG - Pattern is: terminal\ width\ 511
+2020-03-12 18:34:50,221 - DEBUG - _read_channel_expect read_data: termin
+2020-03-12 18:34:50,321 - DEBUG - _read_channel_expect read_data: al width 511
+R4#
+2020-03-12 18:34:50,322 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R4#
+2020-03-12 18:34:50,723 - DEBUG - read_channel: 
+2020-03-12 18:34:50,823 - DEBUG - read_channel: 
+2020-03-12 18:34:50,824 - DEBUG - write_channel: b'\n'
+2020-03-12 18:34:50,925 - DEBUG - read_channel: 
+R4#
+2020-03-12 18:34:51,125 - DEBUG - read_channel: 
+2020-03-12 18:34:51,126 - DEBUG - [find_prompt()]: prompt is R4#
+2020-03-12 18:34:51,427 - DEBUG - read_channel: 
+2020-03-12 18:34:51,427 - DEBUG - write_channel: b'show cdp neighbors detail\n'
+2020-03-12 18:34:51,428 - DEBUG - Pattern is: show\ cdp\ neighbors\ detail
+2020-03-12 18:34:51,437 - DEBUG - _read_channel_expect read_data: show cdp neighbor
+2020-03-12 18:34:51,538 - DEBUG - _read_channel_expect read_data: s detail
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 136 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 147 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 154 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 177 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R4#
+2020-03-12 18:34:51,538 - DEBUG - Pattern found: show\ cdp\ neighbors\ detail show cdp neighbors detail
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 136 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 147 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 154 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 177 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R4#
+2020-03-12 18:34:51,540 - DEBUG - write_channel: b'\n'
+2020-03-12 18:34:51,540 - DEBUG - Pattern is: #
+2020-03-12 18:34:51,546 - DEBUG - _read_channel_expect read_data: 
+R4#
+2020-03-12 18:34:51,546 - DEBUG - Pattern found: # 
+R4#
+2020-03-12 18:34:51,546 - DEBUG - exit_config_mode: 
+2020-03-12 18:34:51,546 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:34:51,550 - DEBUG - starting thread (client mode): 0x2743d240
+2020-03-12 18:34:51,551 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-03-12 18:34:51,572 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-03-12 18:34:51,572 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-03-12 18:34:51,573 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-03-12 18:34:51,574 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-03-12 18:34:51,574 - DEBUG - HostKey agreed: ssh-rsa
+2020-03-12 18:34:51,574 - DEBUG - Cipher agreed: aes128-ctr
+2020-03-12 18:34:51,574 - DEBUG - MAC agreed: hmac-sha1
+2020-03-12 18:34:51,574 - DEBUG - Compression agreed: none
+2020-03-12 18:34:51,575 - DEBUG - Got server p (2048 bits)
+2020-03-12 18:34:51,691 - DEBUG - EOF in transport thread
+2020-03-12 18:34:51,693 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-03-12 18:34:51,694 - DEBUG - Switch to new keys ...
+2020-03-12 18:34:51,695 - DEBUG - Adding ssh-rsa host key for 10.0.0.105: b'2bc387c6a9ccc44f631ac989dc0bbdf4'
+2020-03-12 18:34:51,894 - DEBUG - userauth is OK
+2020-03-12 18:34:52,147 - INFO - Authentication (password) successful!
+2020-03-12 18:34:52,148 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-03-12 18:34:52,149 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-03-12 18:34:52,149 - DEBUG - Secsh channel 0 opened.
+2020-03-12 18:34:52,150 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:34:52,151 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:34:53,253 - DEBUG - read_channel: R5#
+2020-03-12 18:34:53,360 - DEBUG - read_channel: 
+2020-03-12 18:34:55,361 - DEBUG - read_channel: 
+2020-03-12 18:34:55,462 - DEBUG - read_channel: 
+2020-03-12 18:34:55,463 - DEBUG - write_channel: b'\n'
+2020-03-12 18:34:55,564 - DEBUG - read_channel: 
+R5#
+2020-03-12 18:34:55,765 - DEBUG - read_channel: 
+2020-03-12 18:34:55,765 - DEBUG - [find_prompt()]: prompt is R5#
+2020-03-12 18:34:55,966 - DEBUG - read_channel: 
+2020-03-12 18:34:55,966 - DEBUG - In disable_paging
+2020-03-12 18:34:55,966 - DEBUG - Command: terminal length 0
+
+2020-03-12 18:34:55,966 - DEBUG - write_channel: b'terminal length 0\n'
+2020-03-12 18:34:55,966 - DEBUG - Pattern is: terminal\ length\ 0
+2020-03-12 18:34:55,972 - DEBUG - _read_channel_expect read_data: t
+2020-03-12 18:34:56,072 - DEBUG - _read_channel_expect read_data: erminal length 0
+R5#
+2020-03-12 18:34:56,073 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R5#
+2020-03-12 18:34:56,073 - DEBUG - terminal length 0
+R5#
+2020-03-12 18:34:56,073 - DEBUG - Exiting disable_paging
+2020-03-12 18:34:56,073 - DEBUG - write_channel: b'terminal width 511\n'
+2020-03-12 18:34:56,074 - DEBUG - Pattern is: terminal\ width\ 511
+2020-03-12 18:34:56,080 - DEBUG - _read_channel_expect read_data: termin
+2020-03-12 18:34:56,186 - DEBUG - _read_channel_expect read_data: al width 511
+R5#
+2020-03-12 18:34:56,187 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R5#
+2020-03-12 18:34:56,588 - DEBUG - read_channel: 
+2020-03-12 18:34:56,688 - DEBUG - read_channel: 
+2020-03-12 18:34:56,689 - DEBUG - write_channel: b'\n'
+2020-03-12 18:34:56,790 - DEBUG - read_channel: 
+R5#
+2020-03-12 18:34:56,991 - DEBUG - read_channel: 
+2020-03-12 18:34:56,991 - DEBUG - [find_prompt()]: prompt is R5#
+2020-03-12 18:34:57,292 - DEBUG - read_channel: 
+2020-03-12 18:34:57,293 - DEBUG - write_channel: b'show cdp neighbors detail\n'
+2020-03-12 18:34:57,293 - DEBUG - Pattern is: show\ cdp\ neighbors\ detail
+2020-03-12 18:34:57,298 - DEBUG - _read_channel_expect read_data: s
+2020-03-12 18:34:57,399 - DEBUG - _read_channel_expect read_data: how cdp neighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 145 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 141 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 148 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 172 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R5#
+2020-03-12 18:34:57,399 - DEBUG - Pattern found: show\ cdp\ neighbors\ detail show cdp neighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 145 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 141 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 148 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 172 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R5#
+2020-03-12 18:34:57,400 - DEBUG - write_channel: b'\n'
+2020-03-12 18:34:57,400 - DEBUG - Pattern is: #
+2020-03-12 18:34:57,406 - DEBUG - _read_channel_expect read_data: 
+
+2020-03-12 18:34:57,506 - DEBUG - _read_channel_expect read_data: R5#
+2020-03-12 18:34:57,507 - DEBUG - Pattern found: # 
+R5#
+2020-03-12 18:34:57,507 - DEBUG - exit_config_mode: 
+2020-03-12 18:34:57,507 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:34:57,511 - DEBUG - EOF in transport thread
+2020-03-12 18:35:39,892 - DEBUG - starting thread (client mode): 0x548a9400
+2020-03-12 18:35:39,892 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-03-12 18:35:39,942 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-03-12 18:35:39,943 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-03-12 18:35:39,944 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-03-12 18:35:39,945 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-03-12 18:35:39,945 - DEBUG - HostKey agreed: ssh-rsa
+2020-03-12 18:35:39,945 - DEBUG - Cipher agreed: aes128-ctr
+2020-03-12 18:35:39,945 - DEBUG - MAC agreed: hmac-sha1
+2020-03-12 18:35:39,945 - DEBUG - Compression agreed: none
+2020-03-12 18:35:39,946 - DEBUG - Got server p (2048 bits)
+2020-03-12 18:35:40,046 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-03-12 18:35:40,047 - DEBUG - Switch to new keys ...
+2020-03-12 18:35:40,048 - DEBUG - Adding ssh-rsa host key for 10.0.0.101: b'3c773f5ec34ee7fd03bc4207379f29f8'
+2020-03-12 18:35:40,251 - DEBUG - userauth is OK
+2020-03-12 18:35:40,509 - INFO - Authentication (password) successful!
+2020-03-12 18:35:40,510 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-03-12 18:35:40,511 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-03-12 18:35:40,512 - DEBUG - Secsh channel 0 opened.
+2020-03-12 18:35:40,513 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:35:40,514 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:35:41,617 - DEBUG - read_channel: R1#
+2020-03-12 18:35:41,718 - DEBUG - read_channel: 
+2020-03-12 18:35:43,720 - DEBUG - read_channel: 
+2020-03-12 18:35:43,822 - DEBUG - read_channel: 
+2020-03-12 18:35:43,823 - DEBUG - write_channel: b'\n'
+2020-03-12 18:35:43,924 - DEBUG - read_channel: 
+R1#
+2020-03-12 18:35:44,125 - DEBUG - read_channel: 
+2020-03-12 18:35:44,126 - DEBUG - [find_prompt()]: prompt is R1#
+2020-03-12 18:35:44,326 - DEBUG - read_channel: 
+2020-03-12 18:35:44,327 - DEBUG - In disable_paging
+2020-03-12 18:35:44,327 - DEBUG - Command: terminal length 0
+
+2020-03-12 18:35:44,327 - DEBUG - write_channel: b'terminal length 0\n'
+2020-03-12 18:35:44,328 - DEBUG - Pattern is: terminal\ length\ 0
+2020-03-12 18:35:44,333 - DEBUG - _read_channel_expect read_data: t
+2020-03-12 18:35:44,434 - DEBUG - _read_channel_expect read_data: erminal length 0
+R1#
+2020-03-12 18:35:44,434 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R1#
+2020-03-12 18:35:44,434 - DEBUG - terminal length 0
+R1#
+2020-03-12 18:35:44,434 - DEBUG - Exiting disable_paging
+2020-03-12 18:35:44,435 - DEBUG - write_channel: b'terminal width 511\n'
+2020-03-12 18:35:44,435 - DEBUG - Pattern is: terminal\ width\ 511
+2020-03-12 18:35:44,442 - DEBUG - _read_channel_expect read_data: termin
+2020-03-12 18:35:44,543 - DEBUG - _read_channel_expect read_data: al width 511
+R1#
+2020-03-12 18:35:44,543 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R1#
+2020-03-12 18:35:44,944 - DEBUG - read_channel: 
+2020-03-12 18:35:45,045 - DEBUG - read_channel: 
+2020-03-12 18:35:45,046 - DEBUG - write_channel: b'\n'
+2020-03-12 18:35:45,146 - DEBUG - read_channel: 
+R1#
+2020-03-12 18:35:45,347 - DEBUG - read_channel: 
+2020-03-12 18:35:45,347 - DEBUG - [find_prompt()]: prompt is R1#
+2020-03-12 18:35:45,648 - DEBUG - read_channel: 
+2020-03-12 18:35:45,649 - DEBUG - write_channel: b'show cdp neighbors detail\n'
+2020-03-12 18:35:45,649 - DEBUG - Pattern is: show\ cdp\ neighbors\ detail
+2020-03-12 18:35:45,659 - DEBUG - _read_channel_expect read_data: show cdp neighbor
+2020-03-12 18:35:45,760 - DEBUG - _read_channel_expect read_data: s detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 155 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 133 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 157 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 172 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R1#
+2020-03-12 18:35:45,760 - DEBUG - Pattern found: show\ cdp\ neighbors\ detail show cdp neighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 155 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 133 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 157 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 172 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R1#
+2020-03-12 18:35:45,761 - DEBUG - write_channel: b'\n'
+2020-03-12 18:35:45,762 - DEBUG - Pattern is: #
+2020-03-12 18:35:45,767 - DEBUG - _read_channel_expect read_data: 
+R1#
+2020-03-12 18:35:45,768 - DEBUG - Pattern found: # 
+R1#
+2020-03-12 18:35:45,768 - DEBUG - exit_config_mode: 
+2020-03-12 18:35:45,768 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:35:45,773 - DEBUG - starting thread (client mode): 0x548a9f98
+2020-03-12 18:35:45,773 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-03-12 18:35:45,828 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-03-12 18:35:45,829 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-03-12 18:35:45,830 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-03-12 18:35:45,831 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-03-12 18:35:45,831 - DEBUG - HostKey agreed: ssh-rsa
+2020-03-12 18:35:45,831 - DEBUG - Cipher agreed: aes128-ctr
+2020-03-12 18:35:45,831 - DEBUG - MAC agreed: hmac-sha1
+2020-03-12 18:35:45,831 - DEBUG - Compression agreed: none
+2020-03-12 18:35:45,833 - DEBUG - Got server p (2048 bits)
+2020-03-12 18:35:45,879 - DEBUG - EOF in transport thread
+2020-03-12 18:35:45,976 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-03-12 18:35:45,977 - DEBUG - Switch to new keys ...
+2020-03-12 18:35:45,978 - DEBUG - Adding ssh-rsa host key for 10.0.0.102: b'665dd22ee6c66efa3a31010241b96628'
+2020-03-12 18:35:46,179 - DEBUG - userauth is OK
+2020-03-12 18:35:46,437 - INFO - Authentication (password) successful!
+2020-03-12 18:35:46,438 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-03-12 18:35:46,439 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-03-12 18:35:46,440 - DEBUG - Secsh channel 0 opened.
+2020-03-12 18:35:46,441 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:35:46,442 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:35:47,545 - DEBUG - read_channel: R2#
+2020-03-12 18:35:47,646 - DEBUG - read_channel: 
+2020-03-12 18:35:49,648 - DEBUG - read_channel: 
+2020-03-12 18:35:49,749 - DEBUG - read_channel: 
+2020-03-12 18:35:49,750 - DEBUG - write_channel: b'\n'
+2020-03-12 18:35:49,851 - DEBUG - read_channel: 
+R2#
+2020-03-12 18:35:50,052 - DEBUG - read_channel: 
+2020-03-12 18:35:50,052 - DEBUG - [find_prompt()]: prompt is R2#
+2020-03-12 18:35:50,253 - DEBUG - read_channel: 
+2020-03-12 18:35:50,253 - DEBUG - In disable_paging
+2020-03-12 18:35:50,253 - DEBUG - Command: terminal length 0
+
+2020-03-12 18:35:50,254 - DEBUG - write_channel: b'terminal length 0\n'
+2020-03-12 18:35:50,254 - DEBUG - Pattern is: terminal\ length\ 0
+2020-03-12 18:35:50,259 - DEBUG - _read_channel_expect read_data: t
+2020-03-12 18:35:50,360 - DEBUG - _read_channel_expect read_data: erminal length 0
+R2#
+2020-03-12 18:35:50,360 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R2#
+2020-03-12 18:35:50,361 - DEBUG - terminal length 0
+R2#
+2020-03-12 18:35:50,361 - DEBUG - Exiting disable_paging
+2020-03-12 18:35:50,361 - DEBUG - write_channel: b'terminal width 511\n'
+2020-03-12 18:35:50,362 - DEBUG - Pattern is: terminal\ width\ 511
+2020-03-12 18:35:50,367 - DEBUG - _read_channel_expect read_data: t
+2020-03-12 18:35:50,468 - DEBUG - _read_channel_expect read_data: erminal width 511
+R2#
+2020-03-12 18:35:50,468 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R2#
+2020-03-12 18:35:50,869 - DEBUG - read_channel: 
+2020-03-12 18:35:50,970 - DEBUG - read_channel: 
+2020-03-12 18:35:50,971 - DEBUG - write_channel: b'\n'
+2020-03-12 18:35:51,071 - DEBUG - read_channel: 
+R2#
+2020-03-12 18:35:51,272 - DEBUG - read_channel: 
+2020-03-12 18:35:51,273 - DEBUG - [find_prompt()]: prompt is R2#
+2020-03-12 18:35:51,573 - DEBUG - read_channel: 
+2020-03-12 18:35:51,574 - DEBUG - write_channel: b'show cdp neighbors detail\n'
+2020-03-12 18:35:51,574 - DEBUG - Pattern is: show\ cdp\ neighbors\ detail
+2020-03-12 18:35:51,579 - DEBUG - _read_channel_expect read_data: s
+2020-03-12 18:35:51,680 - DEBUG - _read_channel_expect read_data: how cdp neighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 149 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 127 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 140 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 166 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R2#
+2020-03-12 18:35:51,681 - DEBUG - Pattern found: show\ cdp\ neighbors\ detail show cdp neighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 149 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 127 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 140 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 166 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R2#
+2020-03-12 18:35:51,682 - DEBUG - write_channel: b'\n'
+2020-03-12 18:35:51,683 - DEBUG - Pattern is: #
+2020-03-12 18:35:51,688 - DEBUG - _read_channel_expect read_data: 
+
+2020-03-12 18:35:51,789 - DEBUG - _read_channel_expect read_data: R2#
+2020-03-12 18:35:51,789 - DEBUG - Pattern found: # 
+R2#
+2020-03-12 18:35:51,790 - DEBUG - exit_config_mode: 
+2020-03-12 18:35:51,790 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:35:51,794 - DEBUG - EOF in transport thread
+2020-03-12 18:35:51,796 - DEBUG - starting thread (client mode): 0x548a9ef0
+2020-03-12 18:35:51,797 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-03-12 18:35:51,797 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-03-12 18:35:51,797 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-03-12 18:35:51,799 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-03-12 18:35:51,799 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-03-12 18:35:51,799 - DEBUG - HostKey agreed: ssh-rsa
+2020-03-12 18:35:51,799 - DEBUG - Cipher agreed: aes128-ctr
+2020-03-12 18:35:51,800 - DEBUG - MAC agreed: hmac-sha1
+2020-03-12 18:35:51,800 - DEBUG - Compression agreed: none
+2020-03-12 18:35:52,000 - DEBUG - Got server p (2048 bits)
+2020-03-12 18:35:52,097 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-03-12 18:35:52,098 - DEBUG - Switch to new keys ...
+2020-03-12 18:35:52,099 - DEBUG - Adding ssh-rsa host key for 10.0.0.103: b'79c02bf140f74955af9b6ffbae8c3e68'
+2020-03-12 18:35:52,301 - DEBUG - userauth is OK
+2020-03-12 18:35:52,551 - INFO - Authentication (password) successful!
+2020-03-12 18:35:52,552 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-03-12 18:35:52,553 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-03-12 18:35:52,553 - DEBUG - Secsh channel 0 opened.
+2020-03-12 18:35:52,555 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:35:52,555 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:35:53,657 - DEBUG - read_channel: R3#
+2020-03-12 18:35:53,758 - DEBUG - read_channel: 
+2020-03-12 18:35:55,764 - DEBUG - read_channel: 
+2020-03-12 18:35:55,865 - DEBUG - read_channel: 
+2020-03-12 18:35:55,866 - DEBUG - write_channel: b'\n'
+2020-03-12 18:35:55,968 - DEBUG - read_channel: 
+R3#
+2020-03-12 18:35:56,169 - DEBUG - read_channel: 
+2020-03-12 18:35:56,169 - DEBUG - [find_prompt()]: prompt is R3#
+2020-03-12 18:35:56,370 - DEBUG - read_channel: 
+2020-03-12 18:35:56,370 - DEBUG - In disable_paging
+2020-03-12 18:35:56,371 - DEBUG - Command: terminal length 0
+
+2020-03-12 18:35:56,371 - DEBUG - write_channel: b'terminal length 0\n'
+2020-03-12 18:35:56,371 - DEBUG - Pattern is: terminal\ length\ 0
+2020-03-12 18:35:56,377 - DEBUG - _read_channel_expect read_data: t
+2020-03-12 18:35:56,477 - DEBUG - _read_channel_expect read_data: erminal length 0
+R3#
+2020-03-12 18:35:56,478 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R3#
+2020-03-12 18:35:56,478 - DEBUG - terminal length 0
+R3#
+2020-03-12 18:35:56,478 - DEBUG - Exiting disable_paging
+2020-03-12 18:35:56,478 - DEBUG - write_channel: b'terminal width 511\n'
+2020-03-12 18:35:56,479 - DEBUG - Pattern is: terminal\ width\ 511
+2020-03-12 18:35:56,486 - DEBUG - _read_channel_expect read_data: termina
+2020-03-12 18:35:56,587 - DEBUG - _read_channel_expect read_data: l width 511
+R3#
+2020-03-12 18:35:56,587 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R3#
+2020-03-12 18:35:56,988 - DEBUG - read_channel: 
+2020-03-12 18:35:57,088 - DEBUG - read_channel: 
+2020-03-12 18:35:57,089 - DEBUG - write_channel: b'\n'
+2020-03-12 18:35:57,190 - DEBUG - read_channel: 
+R3#
+2020-03-12 18:35:57,391 - DEBUG - read_channel: 
+2020-03-12 18:35:57,391 - DEBUG - [find_prompt()]: prompt is R3#
+2020-03-12 18:35:57,692 - DEBUG - read_channel: 
+2020-03-12 18:35:57,693 - DEBUG - write_channel: b'show cdp neighbors detail\n'
+2020-03-12 18:35:57,693 - DEBUG - Pattern is: show\ cdp\ neighbors\ detail
+2020-03-12 18:35:57,703 - DEBUG - _read_channel_expect read_data: show cdp neighbor
+2020-03-12 18:35:57,804 - DEBUG - _read_channel_expect read_data: s detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 143 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 174 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 133 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 145 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+
+Total cdp entries displayed : 4
+R3#
+2020-03-12 18:35:57,804 - DEBUG - Pattern found: show\ cdp\ neighbors\ detail show cdp neighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 143 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 174 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 133 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 145 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+
+Total cdp entries displayed : 4
+R3#
+2020-03-12 18:35:57,805 - DEBUG - write_channel: b'\n'
+2020-03-12 18:35:57,806 - DEBUG - Pattern is: #
+2020-03-12 18:35:57,810 - DEBUG - _read_channel_expect read_data: 
+
+2020-03-12 18:35:57,911 - DEBUG - _read_channel_expect read_data: R3#
+2020-03-12 18:35:57,911 - DEBUG - Pattern found: # 
+R3#
+2020-03-12 18:35:57,911 - DEBUG - exit_config_mode: 
+2020-03-12 18:35:57,911 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:35:57,914 - DEBUG - EOF in transport thread
+2020-03-12 18:35:57,917 - DEBUG - starting thread (client mode): 0x548c3ef0
+2020-03-12 18:35:57,917 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-03-12 18:35:57,918 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-03-12 18:35:57,919 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-03-12 18:35:57,920 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-03-12 18:35:57,920 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-03-12 18:35:57,921 - DEBUG - HostKey agreed: ssh-rsa
+2020-03-12 18:35:57,921 - DEBUG - Cipher agreed: aes128-ctr
+2020-03-12 18:35:57,921 - DEBUG - MAC agreed: hmac-sha1
+2020-03-12 18:35:57,921 - DEBUG - Compression agreed: none
+2020-03-12 18:35:57,922 - DEBUG - Got server p (2048 bits)
+2020-03-12 18:35:58,095 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-03-12 18:35:58,096 - DEBUG - Switch to new keys ...
+2020-03-12 18:35:58,097 - DEBUG - Adding ssh-rsa host key for 10.0.0.104: b'f8cf9cc85e9e42441d33df4cc179414c'
+2020-03-12 18:35:58,297 - DEBUG - userauth is OK
+2020-03-12 18:35:58,552 - INFO - Authentication (password) successful!
+2020-03-12 18:35:58,553 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-03-12 18:35:58,555 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-03-12 18:35:58,555 - DEBUG - Secsh channel 0 opened.
+2020-03-12 18:35:58,556 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:35:58,558 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:35:59,660 - DEBUG - read_channel: R4#
+2020-03-12 18:35:59,760 - DEBUG - read_channel: 
+2020-03-12 18:36:01,763 - DEBUG - read_channel: 
+2020-03-12 18:36:01,864 - DEBUG - read_channel: 
+2020-03-12 18:36:01,865 - DEBUG - write_channel: b'\n'
+2020-03-12 18:36:01,965 - DEBUG - read_channel: 
+R4#
+2020-03-12 18:36:02,167 - DEBUG - read_channel: 
+2020-03-12 18:36:02,167 - DEBUG - [find_prompt()]: prompt is R4#
+2020-03-12 18:36:02,370 - DEBUG - read_channel: 
+2020-03-12 18:36:02,370 - DEBUG - In disable_paging
+2020-03-12 18:36:02,371 - DEBUG - Command: terminal length 0
+
+2020-03-12 18:36:02,371 - DEBUG - write_channel: b'terminal length 0\n'
+2020-03-12 18:36:02,371 - DEBUG - Pattern is: terminal\ length\ 0
+2020-03-12 18:36:02,384 - DEBUG - _read_channel_expect read_data: te
+2020-03-12 18:36:02,485 - DEBUG - _read_channel_expect read_data: rminal length 0
+R4#
+2020-03-12 18:36:02,485 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R4#
+2020-03-12 18:36:02,485 - DEBUG - terminal length 0
+R4#
+2020-03-12 18:36:02,485 - DEBUG - Exiting disable_paging
+2020-03-12 18:36:02,486 - DEBUG - write_channel: b'terminal width 511\n'
+2020-03-12 18:36:02,486 - DEBUG - Pattern is: terminal\ width\ 511
+2020-03-12 18:36:02,493 - DEBUG - _read_channel_expect read_data: termin
+2020-03-12 18:36:02,594 - DEBUG - _read_channel_expect read_data: al width 511
+R4#
+2020-03-12 18:36:02,594 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R4#
+2020-03-12 18:36:02,995 - DEBUG - read_channel: 
+2020-03-12 18:36:03,096 - DEBUG - read_channel: 
+2020-03-12 18:36:03,096 - DEBUG - write_channel: b'\n'
+2020-03-12 18:36:03,197 - DEBUG - read_channel: 
+R4#
+2020-03-12 18:36:03,398 - DEBUG - read_channel: 
+2020-03-12 18:36:03,398 - DEBUG - [find_prompt()]: prompt is R4#
+2020-03-12 18:36:03,699 - DEBUG - read_channel: 
+2020-03-12 18:36:03,700 - DEBUG - write_channel: b'show cdp neighbors detail\n'
+2020-03-12 18:36:03,700 - DEBUG - Pattern is: show\ cdp\ neighbors\ detail
+2020-03-12 18:36:03,710 - DEBUG - _read_channel_expect read_data: show cdp neighbor
+2020-03-12 18:36:03,810 - DEBUG - _read_channel_expect read_data: s detail
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 168 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 178 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 139 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 154 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R4#
+2020-03-12 18:36:03,811 - DEBUG - Pattern found: show\ cdp\ neighbors\ detail show cdp neighbors detail
+-------------------------
+Device ID: R5.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.105
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 168 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.105
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 178 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 139 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 154 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R4#
+2020-03-12 18:36:03,812 - DEBUG - write_channel: b'\n'
+2020-03-12 18:36:03,812 - DEBUG - Pattern is: #
+2020-03-12 18:36:03,817 - DEBUG - _read_channel_expect read_data: 
+
+2020-03-12 18:36:03,918 - DEBUG - _read_channel_expect read_data: R4#
+2020-03-12 18:36:03,919 - DEBUG - Pattern found: # 
+R4#
+2020-03-12 18:36:03,919 - DEBUG - exit_config_mode: 
+2020-03-12 18:36:03,919 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:36:03,922 - DEBUG - EOF in transport thread
+2020-03-12 18:36:03,924 - DEBUG - starting thread (client mode): 0x548d1588
+2020-03-12 18:36:03,924 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-03-12 18:36:03,935 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-03-12 18:36:03,935 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-03-12 18:36:03,937 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-03-12 18:36:03,937 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-03-12 18:36:03,937 - DEBUG - HostKey agreed: ssh-rsa
+2020-03-12 18:36:03,938 - DEBUG - Cipher agreed: aes128-ctr
+2020-03-12 18:36:03,938 - DEBUG - MAC agreed: hmac-sha1
+2020-03-12 18:36:03,938 - DEBUG - Compression agreed: none
+2020-03-12 18:36:03,939 - DEBUG - Got server p (2048 bits)
+2020-03-12 18:36:04,089 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-03-12 18:36:04,090 - DEBUG - Switch to new keys ...
+2020-03-12 18:36:04,092 - DEBUG - Adding ssh-rsa host key for 10.0.0.105: b'2bc387c6a9ccc44f631ac989dc0bbdf4'
+2020-03-12 18:36:04,293 - DEBUG - userauth is OK
+2020-03-12 18:36:04,547 - INFO - Authentication (password) successful!
+2020-03-12 18:36:04,548 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-03-12 18:36:04,550 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-03-12 18:36:04,550 - DEBUG - Secsh channel 0 opened.
+2020-03-12 18:36:04,551 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:36:04,552 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-03-12 18:36:05,655 - DEBUG - read_channel: R5#
+2020-03-12 18:36:05,755 - DEBUG - read_channel: 
+2020-03-12 18:36:07,758 - DEBUG - read_channel: 
+2020-03-12 18:36:07,859 - DEBUG - read_channel: 
+2020-03-12 18:36:07,860 - DEBUG - write_channel: b'\n'
+2020-03-12 18:36:07,961 - DEBUG - read_channel: 
+R5#
+2020-03-12 18:36:08,162 - DEBUG - read_channel: 
+2020-03-12 18:36:08,163 - DEBUG - [find_prompt()]: prompt is R5#
+2020-03-12 18:36:08,364 - DEBUG - read_channel: 
+2020-03-12 18:36:08,364 - DEBUG - In disable_paging
+2020-03-12 18:36:08,364 - DEBUG - Command: terminal length 0
+
+2020-03-12 18:36:08,365 - DEBUG - write_channel: b'terminal length 0\n'
+2020-03-12 18:36:08,365 - DEBUG - Pattern is: terminal\ length\ 0
+2020-03-12 18:36:08,371 - DEBUG - _read_channel_expect read_data: t
+2020-03-12 18:36:08,471 - DEBUG - _read_channel_expect read_data: erminal length 0
+R5#
+2020-03-12 18:36:08,472 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R5#
+2020-03-12 18:36:08,472 - DEBUG - terminal length 0
+R5#
+2020-03-12 18:36:08,472 - DEBUG - Exiting disable_paging
+2020-03-12 18:36:08,472 - DEBUG - write_channel: b'terminal width 511\n'
+2020-03-12 18:36:08,472 - DEBUG - Pattern is: terminal\ width\ 511
+2020-03-12 18:36:08,479 - DEBUG - _read_channel_expect read_data: termin
+2020-03-12 18:36:08,580 - DEBUG - _read_channel_expect read_data: al width 511
+R5#
+2020-03-12 18:36:08,580 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R5#
+2020-03-12 18:36:08,982 - DEBUG - read_channel: 
+2020-03-12 18:36:09,082 - DEBUG - read_channel: 
+2020-03-12 18:36:09,083 - DEBUG - write_channel: b'\n'
+2020-03-12 18:36:09,184 - DEBUG - read_channel: 
+R5#
+2020-03-12 18:36:09,386 - DEBUG - read_channel: 
+2020-03-12 18:36:09,386 - DEBUG - [find_prompt()]: prompt is R5#
+2020-03-12 18:36:09,687 - DEBUG - read_channel: 
+2020-03-12 18:36:09,688 - DEBUG - write_channel: b'show cdp neighbors detail\n'
+2020-03-12 18:36:09,688 - DEBUG - Pattern is: show\ cdp\ neighbors\ detail
+2020-03-12 18:36:09,698 - DEBUG - _read_channel_expect read_data: show cdp neighbor
+2020-03-12 18:36:09,798 - DEBUG - _read_channel_expect read_data: s detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 131 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 172 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 133 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 148 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R5#
+2020-03-12 18:36:09,799 - DEBUG - Pattern found: show\ cdp\ neighbors\ detail show cdp neighbors detail
+-------------------------
+Device ID: R4.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.104
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 131 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.104
+
+-------------------------
+Device ID: R1.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.101
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 172 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.101
+
+-------------------------
+Device ID: R2.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.102
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 133 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.102
+
+-------------------------
+Device ID: R3.virtual.guroo.cloud
+Entry address(es): 
+  IP address: 10.0.0.103
+Platform: Linux Unix,  Capabilities: Router Source-Route-Bridge 
+Interface: Ethernet0/0,  Port ID (outgoing port): Ethernet0/0
+Holdtime : 148 sec
+
+Version :
+Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M), Version 15.5(2)T, DEVELOPMENT TEST SOFTWARE
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2015 by Cisco Systems, Inc.
+Compiled Thu 26-Mar-15 07:36 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es): 
+  IP address: 10.0.0.103
+
+
+Total cdp entries displayed : 4
+R5#
+2020-03-12 18:36:09,800 - DEBUG - write_channel: b'\n'
+2020-03-12 18:36:09,800 - DEBUG - Pattern is: #
+2020-03-12 18:36:09,806 - DEBUG - _read_channel_expect read_data: 
+R5#
+2020-03-12 18:36:09,806 - DEBUG - Pattern found: # 
+R5#
+2020-03-12 18:36:09,806 - DEBUG - exit_config_mode: 
+2020-03-12 18:36:09,806 - DEBUG - write_channel: b'exit\n'
+2020-03-12 18:36:09,851 - DEBUG - EOF in transport thread

@@ -1,0 +1,51 @@
+- config: transport input ssh
+  description: Enables only SSH on the VTY line
+  device_functions:
+  - router
+  - switch
+  id: 3e2edd0c2dec5d5c1037068ebf07de4c
+  name: SSH only for VTY
+  parent: line vty 0 4
+  platform: cisco_ios
+- config: ip ssh version 2
+  description: SSH version 2 is enabled on a network device
+  device_types:
+  - router
+  - switch
+  id: 9b462685c56fde6bcbda0615b1f4a250
+  name: SSH Version 2
+  parent: None
+  platform: cisco_ios
+- config: no ip http server
+  description: Disables the HTTP server on a network device
+  device_types:
+  - router
+  - switch
+  id: b931a90f7782a1cd205a177ec37b4255
+  name: Disable HTTP server
+  parent: None
+  platform: cisco_ios
+- config: vtp version 3
+  description: VTP version 3 must be enabled on all switches
+  device_types:
+  - switch
+  id: 08b0bfd388e774159a8119645127e90b
+  name: VTP Version 3
+  parent: None
+  platform: cisco_ios
+- config: no lldp run
+  description: Disables LLDP for a switch
+  device_types:
+  - switch
+  id: 7b5faad46c21ea88d5b680c6660e106c
+  name: Disable LLDP Globally
+  platform: EOS
+- config: no ip domain lookup
+  description: Disables IP domain lookup on a network device
+  device_types:
+  - router
+  - switch
+  id: 0ff9b8fc48978d4035d9cd3e175a53f3
+  name: Disable Domain lookup
+  parent: None
+  platform: cisco_ios

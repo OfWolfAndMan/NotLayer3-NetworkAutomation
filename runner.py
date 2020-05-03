@@ -7,7 +7,7 @@ def cli():
 
 @click.command(help="Gets running configuration of all devices")
 def get_configs() -> None:
-    for entry in yaml_function("./devices.yml", "read"):
+    for entry in yaml_function("APIs/data/devices.yml", "read"):
         name = entry["name"]
         del entry["name"]
         output = get_config(entry, "show run\n")
@@ -18,7 +18,7 @@ def get_configs() -> None:
 @click.command(help="Get CDP data of devices and parse it into a file")
 def get_cdp_data():
     hostnames = []
-    for entry in yaml_function("./devices.yml", "read"):
+    for entry in yaml_function("APIs/data/devices.yml", "read"):
         name = entry["name"]
         hostnames.append(name)
         del entry["name"]

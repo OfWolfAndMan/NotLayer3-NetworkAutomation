@@ -6,7 +6,7 @@ from ntc_templates.parse import parse_output
 import json
 
 FORMAT = '%(asctime)s - %(levelname)s - %(message)s'
-if not os.path.exists('./log.txt'):
+if not os.path.exists('log.txt'):
     logging.basicConfig(format=FORMAT, filename='log.txt', filemode='x', level=logging.DEBUG)
 else:
     logging.basicConfig(format=FORMAT, filename='log.txt', filemode='a', level=logging.DEBUG)

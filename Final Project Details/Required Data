@@ -1,0 +1,18 @@
+- host: 10.0.0.101
+  name: R1
+  username: admin
+  password: Test123
+  device_type: cisco_ios
+  timeout: 3
+  Vendor: Cisco
+  function: router
+
+-----------------------------
+
+- id: as0192049fkalspqwoerifk01
+  name: SSH only for VTY
+  device_functions: [router, switch]
+  platform: IOS
+  description: Enables only SSH on the VTY line
+  config: transport input ssh
+  parent: line vty 0 4
