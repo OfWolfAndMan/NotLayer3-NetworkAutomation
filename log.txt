@@ -22751,3 +22751,1216 @@ R4#
 2020-05-10 12:39:35,458 - DEBUG - http://127.0.0.1:5002 "GET /api/v1/devices/ HTTP/1.1" 200 1023
 2020-05-10 12:39:35,462 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5002
 2020-05-10 12:39:35,477 - DEBUG - http://127.0.0.1:5002 "GET /api/v1/config/compliance/ HTTP/1.1" 200 1915
+2020-05-10 13:09:36,207 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5002
+2020-05-10 13:12:58,373 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5002
+2020-05-10 13:15:29,328 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5002
+2020-05-10 13:15:29,342 - DEBUG - http://127.0.0.1:5002 "GET /api/v1/devices/ HTTP/1.1" 500 None
+2020-05-10 13:16:27,071 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5002
+2020-05-10 13:16:27,119 - DEBUG - http://127.0.0.1:5002 "GET /api/v1/devices/ HTTP/1.1" 500 None
+2020-05-10 13:17:50,068 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5002
+2020-05-10 13:17:50,124 - DEBUG - http://127.0.0.1:5002 "GET /api/v1/devices/ HTTP/1.1" 500 None
+2020-05-10 13:23:04,569 - INFO - 127.0.0.1 - - [10/May/2020 13:23:04] "[35m[1mGET /api/v1/devices/ HTTP/1.1[0m" 500 -
+2020-05-10 13:24:52,600 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5002
+2020-05-10 13:24:52,700 - INFO - 127.0.0.1 - - [10/May/2020 13:24:52] "[35m[1mGET /api/v1/devices/ HTTP/1.1[0m" 500 -
+2020-05-10 13:24:52,705 - DEBUG - http://127.0.0.1:5002 "GET /api/v1/devices/ HTTP/1.1" 500 None
+2020-05-10 13:27:03,457 - INFO -  * Detected change in '/home/user/PycharmProjects/NotLayer3-NetworkAutomation/APIs/app.py', reloading
+2020-05-10 13:27:03,771 - INFO -  * Restarting with stat
+2020-05-10 13:27:45,780 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5002
+2020-05-10 13:27:45,832 - INFO - 127.0.0.1 - - [10/May/2020 13:27:45] "[37mGET /api/v1/devices/ HTTP/1.1[0m" 200 -
+2020-05-10 13:27:45,853 - DEBUG - http://127.0.0.1:5002 "GET /api/v1/devices/ HTTP/1.1" 200 1023
+2020-05-10 13:27:46,618 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5002
+2020-05-10 13:27:46,659 - INFO - 127.0.0.1 - - [10/May/2020 13:27:46] "[37mGET /api/v1/devices/ HTTP/1.1[0m" 200 -
+2020-05-10 13:27:46,660 - DEBUG - http://127.0.0.1:5002 "GET /api/v1/devices/ HTTP/1.1" 200 1023
+2020-05-10 13:27:46,663 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5002
+2020-05-10 13:27:46,706 - INFO - 127.0.0.1 - - [10/May/2020 13:27:46] "[37mGET /api/v1/config/compliance/ HTTP/1.1[0m" 200 -
+2020-05-10 13:27:46,707 - DEBUG - http://127.0.0.1:5002 "GET /api/v1/config/compliance/ HTTP/1.1" 200 1915
+2020-05-10 13:28:44,816 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5002
+2020-05-10 13:28:44,934 - INFO - 127.0.0.1 - - [10/May/2020 13:28:44] "[37mGET /api/v1/devices/ HTTP/1.1[0m" 200 -
+2020-05-10 13:28:44,935 - DEBUG - http://127.0.0.1:5002 "GET /api/v1/devices/ HTTP/1.1" 200 1023
+2020-05-10 13:28:45,083 - DEBUG - starting thread (client mode): 0x78199b0
+2020-05-10 13:28:45,083 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-05-10 13:28:45,083 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-05-10 13:28:45,083 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-05-10 13:28:45,113 - DEBUG - starting thread (client mode): 0xcf6400
+2020-05-10 13:28:45,115 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-05-10 13:28:45,115 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-05-10 13:28:45,116 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-05-10 13:28:45,120 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-05-10 13:28:45,120 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-05-10 13:28:45,121 - DEBUG - HostKey agreed: ssh-rsa
+2020-05-10 13:28:45,121 - DEBUG - Cipher agreed: aes128-ctr
+2020-05-10 13:28:45,121 - DEBUG - MAC agreed: hmac-sha1
+2020-05-10 13:28:45,121 - DEBUG - Compression agreed: none
+2020-05-10 13:28:45,144 - DEBUG - starting thread (client mode): 0xcf6b00
+2020-05-10 13:28:45,144 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-05-10 13:28:45,144 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-05-10 13:28:45,144 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-05-10 13:28:45,194 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-05-10 13:28:45,194 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-05-10 13:28:45,195 - DEBUG - HostKey agreed: ssh-rsa
+2020-05-10 13:28:45,195 - DEBUG - Cipher agreed: aes128-ctr
+2020-05-10 13:28:45,195 - DEBUG - MAC agreed: hmac-sha1
+2020-05-10 13:28:45,195 - DEBUG - Compression agreed: none
+2020-05-10 13:28:45,241 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-05-10 13:28:45,241 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-05-10 13:28:45,241 - DEBUG - HostKey agreed: ssh-rsa
+2020-05-10 13:28:45,241 - DEBUG - Cipher agreed: aes128-ctr
+2020-05-10 13:28:45,242 - DEBUG - MAC agreed: hmac-sha1
+2020-05-10 13:28:45,242 - DEBUG - Compression agreed: none
+2020-05-10 13:28:45,242 - DEBUG - starting thread (client mode): 0xd00128
+2020-05-10 13:28:45,242 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-05-10 13:28:45,242 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-05-10 13:28:45,242 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-05-10 13:28:45,313 - DEBUG - starting thread (client mode): 0xd00b38
+2020-05-10 13:28:45,313 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.1
+2020-05-10 13:28:45,313 - DEBUG - Remote version/idstring: SSH-2.0-Cisco-1.25
+2020-05-10 13:28:45,313 - INFO - Connected (version 2.0, client Cisco-1.25)
+2020-05-10 13:28:45,314 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-05-10 13:28:45,314 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-05-10 13:28:45,315 - DEBUG - HostKey agreed: ssh-rsa
+2020-05-10 13:28:45,315 - DEBUG - Cipher agreed: aes128-ctr
+2020-05-10 13:28:45,315 - DEBUG - MAC agreed: hmac-sha1
+2020-05-10 13:28:45,315 - DEBUG - Compression agreed: none
+2020-05-10 13:28:45,321 - DEBUG - Got server p (2048 bits)
+2020-05-10 13:28:45,493 - DEBUG - Got server p (2048 bits)
+2020-05-10 13:28:45,537 - DEBUG - Got server p (2048 bits)
+2020-05-10 13:28:45,567 - DEBUG - Got server p (2048 bits)
+2020-05-10 13:28:45,597 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-05-10 13:28:45,597 - DEBUG - Kex agreed: diffie-hellman-group-exchange-sha1
+2020-05-10 13:28:45,598 - DEBUG - HostKey agreed: ssh-rsa
+2020-05-10 13:28:45,598 - DEBUG - Cipher agreed: aes128-ctr
+2020-05-10 13:28:45,598 - DEBUG - MAC agreed: hmac-sha1
+2020-05-10 13:28:45,598 - DEBUG - Compression agreed: none
+2020-05-10 13:28:45,875 - DEBUG - Got server p (2048 bits)
+2020-05-10 13:28:45,950 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-05-10 13:28:45,964 - DEBUG - Switch to new keys ...
+2020-05-10 13:28:45,966 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-05-10 13:28:45,967 - DEBUG - Switch to new keys ...
+2020-05-10 13:28:45,968 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-05-10 13:28:45,969 - DEBUG - Switch to new keys ...
+2020-05-10 13:28:45,969 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-05-10 13:28:45,970 - DEBUG - Switch to new keys ...
+2020-05-10 13:28:45,971 - DEBUG - Adding ssh-rsa host key for 10.0.0.104: b'f8cf9cc85e9e42441d33df4cc179414c'
+2020-05-10 13:28:45,972 - DEBUG - Adding ssh-rsa host key for 10.0.0.101: b'3c773f5ec34ee7fd03bc4207379f29f8'
+2020-05-10 13:28:45,972 - DEBUG - Adding ssh-rsa host key for 10.0.0.102: b'665dd22ee6c66efa3a31010241b96628'
+2020-05-10 13:28:45,973 - DEBUG - Adding ssh-rsa host key for 10.0.0.103: b'79c02bf140f74955af9b6ffbae8c3e68'
+2020-05-10 13:28:46,060 - DEBUG - kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+2020-05-10 13:28:46,061 - DEBUG - Switch to new keys ...
+2020-05-10 13:28:46,062 - DEBUG - Adding ssh-rsa host key for 10.0.0.105: b'2bc387c6a9ccc44f631ac989dc0bbdf4'
+2020-05-10 13:28:46,150 - DEBUG - userauth is OK
+2020-05-10 13:28:46,168 - DEBUG - userauth is OK
+2020-05-10 13:28:46,170 - DEBUG - userauth is OK
+2020-05-10 13:28:46,173 - DEBUG - userauth is OK
+2020-05-10 13:28:46,261 - DEBUG - userauth is OK
+2020-05-10 13:28:46,409 - INFO - Authentication (password) successful!
+2020-05-10 13:28:46,418 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-05-10 13:28:46,419 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-05-10 13:28:46,419 - DEBUG - Secsh channel 0 opened.
+2020-05-10 13:28:46,420 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-05-10 13:28:46,420 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-05-10 13:28:46,425 - INFO - Authentication (password) successful!
+2020-05-10 13:28:46,426 - INFO - Authentication (password) successful!
+2020-05-10 13:28:46,427 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-05-10 13:28:46,427 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-05-10 13:28:46,428 - INFO - Authentication (password) successful!
+2020-05-10 13:28:46,428 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-05-10 13:28:46,429 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-05-10 13:28:46,429 - DEBUG - Secsh channel 0 opened.
+2020-05-10 13:28:46,429 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-05-10 13:28:46,430 - DEBUG - Secsh channel 0 opened.
+2020-05-10 13:28:46,431 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-05-10 13:28:46,431 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-05-10 13:28:46,432 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-05-10 13:28:46,433 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-05-10 13:28:46,434 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-05-10 13:28:46,434 - DEBUG - Secsh channel 0 opened.
+2020-05-10 13:28:46,435 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-05-10 13:28:46,436 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-05-10 13:28:46,522 - INFO - Authentication (password) successful!
+2020-05-10 13:28:46,522 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2020-05-10 13:28:46,534 - DEBUG - [chan 0] Max packet out: 4096 bytes
+2020-05-10 13:28:46,534 - DEBUG - Secsh channel 0 opened.
+2020-05-10 13:28:46,546 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-05-10 13:28:46,558 - DEBUG - [chan 0] Sesch channel 0 request ok
+2020-05-10 13:28:47,525 - DEBUG - read_channel: R4#
+2020-05-10 13:28:47,534 - DEBUG - read_channel: R2#
+2020-05-10 13:28:47,534 - DEBUG - read_channel: R1#
+2020-05-10 13:28:47,537 - DEBUG - read_channel: R3#
+2020-05-10 13:28:47,626 - DEBUG - read_channel: 
+2020-05-10 13:28:47,635 - DEBUG - read_channel: 
+2020-05-10 13:28:47,635 - DEBUG - read_channel: 
+2020-05-10 13:28:47,638 - DEBUG - read_channel: 
+2020-05-10 13:28:47,660 - DEBUG - read_channel: R5#
+2020-05-10 13:28:47,760 - DEBUG - read_channel: 
+2020-05-10 13:28:49,650 - DEBUG - read_channel: 
+2020-05-10 13:28:49,660 - DEBUG - read_channel: 
+2020-05-10 13:28:49,660 - DEBUG - read_channel: 
+2020-05-10 13:28:49,660 - DEBUG - read_channel: 
+2020-05-10 13:28:49,760 - DEBUG - read_channel: 
+2020-05-10 13:28:49,761 - DEBUG - write_channel: b'\n'
+2020-05-10 13:28:49,761 - DEBUG - read_channel: 
+2020-05-10 13:28:49,761 - DEBUG - write_channel: b'\n'
+2020-05-10 13:28:49,761 - DEBUG - read_channel: 
+2020-05-10 13:28:49,762 - DEBUG - write_channel: b'\n'
+2020-05-10 13:28:49,762 - DEBUG - read_channel: 
+2020-05-10 13:28:49,762 - DEBUG - write_channel: b'\n'
+2020-05-10 13:28:49,762 - DEBUG - read_channel: 
+2020-05-10 13:28:49,861 - DEBUG - read_channel: 
+R4#
+2020-05-10 13:28:49,862 - DEBUG - read_channel: 
+R2#
+2020-05-10 13:28:49,862 - DEBUG - read_channel: 
+R1#
+2020-05-10 13:28:49,862 - DEBUG - read_channel: 
+R3#
+2020-05-10 13:28:49,863 - DEBUG - read_channel: 
+2020-05-10 13:28:49,863 - DEBUG - write_channel: b'\n'
+2020-05-10 13:28:49,963 - DEBUG - read_channel: 
+R5#
+2020-05-10 13:28:50,062 - DEBUG - read_channel: 
+2020-05-10 13:28:50,063 - DEBUG - [find_prompt()]: prompt is R4#
+2020-05-10 13:28:50,063 - DEBUG - read_channel: 
+2020-05-10 13:28:50,063 - DEBUG - [find_prompt()]: prompt is R2#
+2020-05-10 13:28:50,063 - DEBUG - read_channel: 
+2020-05-10 13:28:50,063 - DEBUG - [find_prompt()]: prompt is R1#
+2020-05-10 13:28:50,063 - DEBUG - read_channel: 
+2020-05-10 13:28:50,063 - DEBUG - [find_prompt()]: prompt is R3#
+2020-05-10 13:28:50,164 - DEBUG - read_channel: 
+2020-05-10 13:28:50,164 - DEBUG - [find_prompt()]: prompt is R5#
+2020-05-10 13:28:50,263 - DEBUG - read_channel: 
+2020-05-10 13:28:50,264 - DEBUG - In disable_paging
+2020-05-10 13:28:50,264 - DEBUG - Command: terminal length 0
+
+2020-05-10 13:28:50,264 - DEBUG - write_channel: b'terminal length 0\n'
+2020-05-10 13:28:50,265 - DEBUG - Pattern is: terminal\ length\ 0
+2020-05-10 13:28:50,265 - DEBUG - read_channel: 
+2020-05-10 13:28:50,265 - DEBUG - In disable_paging
+2020-05-10 13:28:50,265 - DEBUG - Command: terminal length 0
+
+2020-05-10 13:28:50,266 - DEBUG - write_channel: b'terminal length 0\n'
+2020-05-10 13:28:50,266 - DEBUG - Pattern is: terminal\ length\ 0
+2020-05-10 13:28:50,266 - DEBUG - read_channel: 
+2020-05-10 13:28:50,266 - DEBUG - In disable_paging
+2020-05-10 13:28:50,266 - DEBUG - Command: terminal length 0
+
+2020-05-10 13:28:50,267 - DEBUG - write_channel: b'terminal length 0\n'
+2020-05-10 13:28:50,267 - DEBUG - Pattern is: terminal\ length\ 0
+2020-05-10 13:28:50,267 - DEBUG - read_channel: 
+2020-05-10 13:28:50,267 - DEBUG - In disable_paging
+2020-05-10 13:28:50,267 - DEBUG - Command: terminal length 0
+
+2020-05-10 13:28:50,268 - DEBUG - write_channel: b'terminal length 0\n'
+2020-05-10 13:28:50,268 - DEBUG - Pattern is: terminal\ length\ 0
+2020-05-10 13:28:50,270 - DEBUG - _read_channel_expect read_data: t
+2020-05-10 13:28:50,270 - DEBUG - _read_channel_expect read_data: t
+2020-05-10 13:28:50,271 - DEBUG - _read_channel_expect read_data: t
+2020-05-10 13:28:50,272 - DEBUG - _read_channel_expect read_data: t
+2020-05-10 13:28:50,368 - DEBUG - read_channel: 
+2020-05-10 13:28:50,368 - DEBUG - In disable_paging
+2020-05-10 13:28:50,369 - DEBUG - Command: terminal length 0
+
+2020-05-10 13:28:50,369 - DEBUG - write_channel: b'terminal length 0\n'
+2020-05-10 13:28:50,369 - DEBUG - Pattern is: terminal\ length\ 0
+2020-05-10 13:28:50,370 - DEBUG - _read_channel_expect read_data: erminal length 0
+R4#
+2020-05-10 13:28:50,370 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R4#
+2020-05-10 13:28:50,371 - DEBUG - terminal length 0
+R4#
+2020-05-10 13:28:50,371 - DEBUG - Exiting disable_paging
+2020-05-10 13:28:50,371 - DEBUG - write_channel: b'terminal width 511\n'
+2020-05-10 13:28:50,371 - DEBUG - Pattern is: terminal\ width\ 511
+2020-05-10 13:28:50,371 - DEBUG - _read_channel_expect read_data: erminal length 0
+R2#
+2020-05-10 13:28:50,371 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R2#
+2020-05-10 13:28:50,371 - DEBUG - terminal length 0
+R2#
+2020-05-10 13:28:50,371 - DEBUG - Exiting disable_paging
+2020-05-10 13:28:50,372 - DEBUG - write_channel: b'terminal width 511\n'
+2020-05-10 13:28:50,372 - DEBUG - Pattern is: terminal\ width\ 511
+2020-05-10 13:28:50,372 - DEBUG - _read_channel_expect read_data: erminal length 0
+R1#
+2020-05-10 13:28:50,372 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R1#
+2020-05-10 13:28:50,372 - DEBUG - terminal length 0
+R1#
+2020-05-10 13:28:50,372 - DEBUG - Exiting disable_paging
+2020-05-10 13:28:50,372 - DEBUG - write_channel: b'terminal width 511\n'
+2020-05-10 13:28:50,373 - DEBUG - Pattern is: terminal\ width\ 511
+2020-05-10 13:28:50,373 - DEBUG - _read_channel_expect read_data: erminal length 0
+R3#
+2020-05-10 13:28:50,373 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R3#
+2020-05-10 13:28:50,373 - DEBUG - terminal length 0
+R3#
+2020-05-10 13:28:50,373 - DEBUG - Exiting disable_paging
+2020-05-10 13:28:50,373 - DEBUG - write_channel: b'terminal width 511\n'
+2020-05-10 13:28:50,373 - DEBUG - Pattern is: terminal\ width\ 511
+2020-05-10 13:28:50,374 - DEBUG - _read_channel_expect read_data: t
+2020-05-10 13:28:50,376 - DEBUG - _read_channel_expect read_data: te
+2020-05-10 13:28:50,379 - DEBUG - _read_channel_expect read_data: termin
+2020-05-10 13:28:50,380 - DEBUG - _read_channel_expect read_data: termin
+2020-05-10 13:28:50,384 - DEBUG - _read_channel_expect read_data: termina
+2020-05-10 13:28:50,474 - DEBUG - _read_channel_expect read_data: erminal length 0
+R5#
+2020-05-10 13:28:50,474 - DEBUG - Pattern found: terminal\ length\ 0 terminal length 0
+R5#
+2020-05-10 13:28:50,474 - DEBUG - terminal length 0
+R5#
+2020-05-10 13:28:50,475 - DEBUG - Exiting disable_paging
+2020-05-10 13:28:50,475 - DEBUG - write_channel: b'terminal width 511\n'
+2020-05-10 13:28:50,475 - DEBUG - Pattern is: terminal\ width\ 511
+2020-05-10 13:28:50,477 - DEBUG - _read_channel_expect read_data: rminal width 511
+R4#
+2020-05-10 13:28:50,478 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R4#
+2020-05-10 13:28:50,479 - DEBUG - _read_channel_expect read_data: al width 511
+R2#
+2020-05-10 13:28:50,479 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R2#
+2020-05-10 13:28:50,480 - DEBUG - _read_channel_expect read_data: t
+2020-05-10 13:28:50,480 - DEBUG - _read_channel_expect read_data: al width 511
+R1#
+2020-05-10 13:28:50,480 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R1#
+2020-05-10 13:28:50,484 - DEBUG - _read_channel_expect read_data: l width 511
+R3#
+2020-05-10 13:28:50,485 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R3#
+2020-05-10 13:28:50,580 - DEBUG - _read_channel_expect read_data: erminal width 511
+R5#
+2020-05-10 13:28:50,581 - DEBUG - Pattern found: terminal\ width\ 511 terminal width 511
+R5#
+2020-05-10 13:28:50,886 - DEBUG - read_channel: 
+2020-05-10 13:28:50,888 - DEBUG - read_channel: 
+2020-05-10 13:28:50,888 - DEBUG - read_channel: 
+2020-05-10 13:28:50,888 - DEBUG - read_channel: 
+2020-05-10 13:28:50,982 - DEBUG - read_channel: 
+2020-05-10 13:28:50,987 - DEBUG - read_channel: 
+2020-05-10 13:28:50,988 - DEBUG - write_channel: b'\n'
+2020-05-10 13:28:50,988 - DEBUG - read_channel: 
+2020-05-10 13:28:50,988 - DEBUG - write_channel: b'\n'
+2020-05-10 13:28:50,988 - DEBUG - read_channel: 
+2020-05-10 13:28:50,989 - DEBUG - write_channel: b'\n'
+2020-05-10 13:28:50,989 - DEBUG - read_channel: 
+2020-05-10 13:28:50,989 - DEBUG - write_channel: b'\n'
+2020-05-10 13:28:51,082 - DEBUG - read_channel: 
+2020-05-10 13:28:51,083 - DEBUG - write_channel: b'\n'
+2020-05-10 13:28:51,088 - DEBUG - read_channel: 
+R4#
+2020-05-10 13:28:51,089 - DEBUG - read_channel: 
+R2#
+2020-05-10 13:28:51,089 - DEBUG - read_channel: 
+R1#
+2020-05-10 13:28:51,089 - DEBUG - read_channel: 
+R3#
+2020-05-10 13:28:51,183 - DEBUG - read_channel: 
+R5#
+2020-05-10 13:28:51,289 - DEBUG - read_channel: 
+2020-05-10 13:28:51,289 - DEBUG - [find_prompt()]: prompt is R4#
+2020-05-10 13:28:51,289 - DEBUG - read_channel: 
+2020-05-10 13:28:51,289 - DEBUG - [find_prompt()]: prompt is R2#
+2020-05-10 13:28:51,289 - DEBUG - read_channel: 
+2020-05-10 13:28:51,289 - DEBUG - [find_prompt()]: prompt is R1#
+2020-05-10 13:28:51,290 - DEBUG - read_channel: 
+2020-05-10 13:28:51,290 - DEBUG - [find_prompt()]: prompt is R3#
+2020-05-10 13:28:51,384 - DEBUG - read_channel: 
+2020-05-10 13:28:51,384 - DEBUG - [find_prompt()]: prompt is R5#
+2020-05-10 13:28:51,590 - DEBUG - read_channel: 
+2020-05-10 13:28:51,590 - DEBUG - write_channel: b'show run\n'
+2020-05-10 13:28:51,590 - DEBUG - Pattern is: show\ run
+2020-05-10 13:28:51,590 - DEBUG - read_channel: 
+2020-05-10 13:28:51,591 - DEBUG - write_channel: b'show run\n'
+2020-05-10 13:28:51,591 - DEBUG - Pattern is: show\ run
+2020-05-10 13:28:51,591 - DEBUG - read_channel: 
+2020-05-10 13:28:51,591 - DEBUG - write_channel: b'show run\n'
+2020-05-10 13:28:51,591 - DEBUG - Pattern is: show\ run
+2020-05-10 13:28:51,591 - DEBUG - read_channel: 
+2020-05-10 13:28:51,592 - DEBUG - write_channel: b'show run\n'
+2020-05-10 13:28:51,592 - DEBUG - Pattern is: show\ run
+2020-05-10 13:28:51,601 - DEBUG - _read_channel_expect read_data: show run
+Building configuration...
+
+2020-05-10 13:28:51,602 - DEBUG - Pattern found: show\ run show run
+Building configuration...
+
+2020-05-10 13:28:51,602 - DEBUG - _read_channel_expect read_data: show run
+Building configuration...
+
+2020-05-10 13:28:51,602 - DEBUG - Pattern found: show\ run show run
+Building configuration...
+
+2020-05-10 13:28:51,602 - DEBUG - _read_channel_expect read_data: show run
+Building configuration...
+
+2020-05-10 13:28:51,602 - DEBUG - Pattern found: show\ run show run
+Building configuration...
+
+2020-05-10 13:28:51,604 - DEBUG - _read_channel_expect read_data: show run
+Building configuration...
+
+2020-05-10 13:28:51,604 - DEBUG - Pattern found: show\ run show run
+Building configuration...
+
+2020-05-10 13:28:51,685 - DEBUG - read_channel: 
+2020-05-10 13:28:51,685 - DEBUG - write_channel: b'show run\n'
+2020-05-10 13:28:51,686 - DEBUG - Pattern is: show\ run
+2020-05-10 13:28:51,691 - DEBUG - _read_channel_expect read_data: s
+2020-05-10 13:28:51,791 - DEBUG - _read_channel_expect read_data: how run
+Building configuration...
+
+Current configuration : 1205 bytes
+!
+version 15.5
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname R5
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 5 $1$8ah1$9ptfy5htdx/zgVasWAu4n/
+!
+no aaa new-model
+!
+!
+!
+bsd-client server url https://cloudsso.cisco.com/as/token.oauth2
+clock timezone EST -5 0
+mmi polling-interval 60
+no mmi auto-configure
+no mmi pvc
+mmi snmp-timeout 180
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+
+
+!
+!
+!
+!
+ip domain name virtual.guroo.cloud
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+cts logging verbose
+!
+!
+username admin privilege 15 secret 5 $1$1Ws/$PL6PN/62B4oZhCW7oAE7o1
+!
+redundancy
+!
+!
+ip ssh version 2
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Ethernet0/0
+ ip address 10.0.0.105 255.255.255.0
+!
+interface Ethernet0/1
+ no ip address
+ shutdown
+!
+interface Ethernet0/2
+ no ip address
+ shutdown
+!
+interface Ethernet0/3
+ no ip address
+ shutdown
+!
+ip forward-protocol nd
+!
+!
+no ip http server
+no ip http secure-server
+ip route 0.0.0.0 0.0.0.0 10.0.0.1
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ privilege level 15
+ password 7 023201481F575D72
+ login local
+ transport input ssh
+!
+!
+end
+
+R5#
+2020-05-10 13:28:51,791 - DEBUG - Pattern found: show\ run show run
+Building configuration...
+
+Current configuration : 1205 bytes
+!
+version 15.5
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname R5
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 5 $1$8ah1$9ptfy5htdx/zgVasWAu4n/
+!
+no aaa new-model
+!
+!
+!
+bsd-client server url https://cloudsso.cisco.com/as/token.oauth2
+clock timezone EST -5 0
+mmi polling-interval 60
+no mmi auto-configure
+no mmi pvc
+mmi snmp-timeout 180
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+
+
+!
+!
+!
+!
+ip domain name virtual.guroo.cloud
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+cts logging verbose
+!
+!
+username admin privilege 15 secret 5 $1$1Ws/$PL6PN/62B4oZhCW7oAE7o1
+!
+redundancy
+!
+!
+ip ssh version 2
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Ethernet0/0
+ ip address 10.0.0.105 255.255.255.0
+!
+interface Ethernet0/1
+ no ip address
+ shutdown
+!
+interface Ethernet0/2
+ no ip address
+ shutdown
+!
+interface Ethernet0/3
+ no ip address
+ shutdown
+!
+ip forward-protocol nd
+!
+!
+no ip http server
+no ip http secure-server
+ip route 0.0.0.0 0.0.0.0 10.0.0.1
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ privilege level 15
+ password 7 023201481F575D72
+ login local
+ transport input ssh
+!
+!
+end
+
+R5#
+2020-05-10 13:28:51,792 - DEBUG - write_channel: b'\n'
+2020-05-10 13:28:51,792 - DEBUG - Pattern is: #
+2020-05-10 13:28:51,797 - DEBUG - _read_channel_expect read_data: 
+
+2020-05-10 13:28:51,802 - DEBUG - read_channel: 
+Current configuration : 1326 bytes
+!
+version 15.5
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname R3
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 5 $1$/36z$UKkUYqYg6STzO8M6JuO791
+!
+no aaa new-model
+!
+!
+!
+bsd-client server url https://cloudsso.cisco.com/as/token.oauth2
+clock timezone EST -5 0
+mmi polling-interval 60
+no mmi auto-configure
+no mmi pvc
+mmi snmp-timeout 180
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+
+
+!
+!
+!
+!
+ip domain name virtual.guroo.cloud
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+cts logging verbose
+!
+!
+username admin privilege 15 secret 5 $1$5D1D$4uUitEtiJIv/rvOk5sIYs.
+!
+redundancy
+!
+!
+ip ssh version 2
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Ethernet0/0
+ ip address 10.0.0.103 255.255.255.0
+!
+interface Ethernet0/0.13
+ encapsulation dot1Q 13
+ ip address 10.0.13.3 255.255.255.0
+ ip ospf 1 area 0
+!
+interface Ethernet0/1
+ no ip address
+ shutdown
+!
+interface Ethernet0/2
+ no ip address
+ shutdown
+!
+interface Ethernet0/3
+ no ip address
+ shutdown
+!
+router ospf 1
+!
+ip forward-protocol nd
+!
+!
+no ip http server
+no ip http secure-server
+ip route 0.0.0.0 0.0.0.0 10.0.0.1
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ privilege level 15
+ password 7 0815495D1D485744
+ login local
+ transport input ssh
+!
+!
+end
+
+R3#
+2020-05-10 13:28:51,803 - DEBUG - write_channel: b'\n'
+2020-05-10 13:28:51,803 - DEBUG - Pattern is: #
+2020-05-10 13:28:51,803 - DEBUG - read_channel: 
+Current configuration : 1185 bytes
+!
+version 15.5
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname R2
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 5 $1$rN6Z$VC5zOs6PQ9qbbpNsZodRj/
+!
+no aaa new-model
+!
+!
+!
+bsd-client server url https://cloudsso.cisco.com/as/token.oauth2
+clock timezone EST -5 0
+mmi polling-interval 60
+no mmi auto-configure
+no mmi pvc
+mmi snmp-timeout 180
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+
+
+!
+!
+!
+!
+ip domain name virtual.guroo.cloud
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+cts logging verbose
+!
+!
+username admin privilege 15 secret 5 $1$ujhU$JAYUZXBOQbqIk/4LJU7fB.
+!
+redundancy
+!
+!
+ip ssh version 2
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Ethernet0/0
+ ip address 10.0.0.102 255.255.255.0
+!
+interface Ethernet0/1
+ no ip address
+ shutdown
+!
+interface Ethernet0/2
+ no ip address
+ shutdown
+!
+interface Ethernet0/3
+ no ip address
+ shutdown
+!
+ip forward-protocol nd
+!
+!
+no ip http server
+no ip http secure-server
+ip route 0.0.0.0 0.0.0.0 10.0.0.1
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ password 7 133112011F5D5679
+ login local
+ transport input ssh
+!
+!
+end
+
+R2#
+2020-05-10 13:28:51,803 - DEBUG - write_channel: b'\n'
+2020-05-10 13:28:51,804 - DEBUG - Pattern is: #
+2020-05-10 13:28:51,804 - DEBUG - read_channel: 
+Current configuration : 1921 bytes
+!
+version 15.5
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname R1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 5 $1$Y2uV$l2qGGcLGRspBuD/azILe30
+!
+no aaa new-model
+!
+!
+!
+bsd-client server url https://cloudsso.cisco.com/as/token.oauth2
+clock timezone EST -5 0
+mmi polling-interval 60
+no mmi auto-configure
+no mmi pvc
+mmi snmp-timeout 180
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+
+
+!
+!
+!
+!
+ip domain name virtual.guroo.cloud
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+cts logging verbose
+!
+!
+username admin privilege 15 secret 5 $1$LhYs$DRywb7czUmT6m/Sb.2CxG/
+!
+redundancy
+!
+!
+ip ssh version 2
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback101
+ ip address 192.168.101.1 255.255.255.0
+!
+interface Loopback102
+ ip address 192.168.102.1 255.255.255.0
+!
+interface Loopback103
+ ip address 192.168.103.1 255.255.255.0
+!
+interface Loopback104
+ ip address 192.168.104.1 255.255.255.0
+!
+interface Ethernet0/0
+ ip address 10.0.0.101 255.255.255.0
+!
+interface Ethernet0/0.13
+ encapsulation dot1Q 13
+ ip address 10.0.13.1 255.255.255.0
+ ip ospf 1 area 0
+!
+interface Ethernet0/0.14
+ encapsulation dot1Q 14
+ ip address 10.0.14.1 255.255.255.0
+ ip ospf network point-to-point
+ ip ospf 1 area 0
+!
+interface Ethernet0/1
+ description "MERGER-NETWORK"
+ ip address 192.168.0.1 255.255.255.0
+!
+interface Ethernet0/2
+ no ip address
+ shutdown
+!
+interface Ethernet0/3
+ no ip address
+ shutdown
+!
+router ospf 1
+ redistribute connected subnets route-map MERGER-NETWORK
+!
+ip forward-protocol nd
+!
+!
+no ip http server
+no ip http secure-server
+ip route 0.0.0.0 0.0.0.0 10.0.0.1
+!
+!
+route-map MERGER-NETWORK permit 10
+ match interface Loopback101 Loopback102 Loopback103 Loopback104
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ privilege level 15
+ password 7 073B245F5A584B56
+ login local
+ transport input ssh
+!
+!
+end
+
+R1#
+2020-05-10 13:28:51,804 - DEBUG - write_channel: b'\n'
+2020-05-10 13:28:51,804 - DEBUG - Pattern is: #
+2020-05-10 13:28:51,804 - DEBUG - read_channel: 
+Current configuration : 1440 bytes
+!
+! Last configuration change at 11:42:38 EST Sun May 10 2020
+!
+version 15.5
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname R4
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 5 $1$jaAM$7RVnhNY7.MmZ7D4IW40gO1
+!
+no aaa new-model
+!
+!
+!
+bsd-client server url https://cloudsso.cisco.com/as/token.oauth2
+clock timezone EST -5 0
+mmi polling-interval 60
+no mmi auto-configure
+no mmi pvc
+mmi snmp-timeout 180
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+
+
+!
+!
+!
+!
+no ip domain lookup
+ip domain name virtual.guroo.cloud
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+cts logging verbose
+!
+!
+username admin privilege 15 secret 5 $1$5I/s$zaM6DVtIXBoXCb1dYk6NE0
+!
+redundancy
+!
+!
+ip ssh version 2
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Ethernet0/0
+ ip address 10.0.0.104 255.255.255.0
+!
+interface Ethernet0/0.14
+ encapsulation dot1Q 14
+ ip address 10.0.14.4 255.255.255.0
+ ip ospf network point-to-point
+ ip ospf 1 area 0
+!
+interface Ethernet0/1
+ no ip address
+ shutdown
+!
+interface Ethernet0/2
+ no ip address
+ shutdown
+!
+interface Ethernet0/3
+ no ip address
+ shutdown
+!
+router ospf 1
+!
+ip forward-protocol nd
+!
+!
+no ip http server
+no ip http secure-server
+ip route 0.0.0.0 0.0.0.0 10.0.0.1
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ privilege level 15
+ password 7 053F031C351D1C5A
+ login local
+ transport input ssh
+!
+!
+end
+
+R4#
+2020-05-10 13:28:51,805 - DEBUG - write_channel: b'\n'
+2020-05-10 13:28:51,805 - DEBUG - Pattern is: #
+2020-05-10 13:28:51,808 - DEBUG - _read_channel_expect read_data: 
+R2#
+2020-05-10 13:28:51,809 - DEBUG - Pattern found: # 
+R2#
+2020-05-10 13:28:51,809 - DEBUG - exit_config_mode: 
+2020-05-10 13:28:51,809 - DEBUG - write_channel: b'exit\n'
+2020-05-10 13:28:51,811 - DEBUG - _read_channel_expect read_data: 
+R1#
+2020-05-10 13:28:51,811 - DEBUG - Pattern found: # 
+R1#
+2020-05-10 13:28:51,811 - DEBUG - exit_config_mode: 
+2020-05-10 13:28:51,812 - DEBUG - write_channel: b'exit\n'
+2020-05-10 13:28:51,812 - DEBUG - _read_channel_expect read_data: 
+R4#
+2020-05-10 13:28:51,812 - DEBUG - Pattern found: # 
+R4#
+2020-05-10 13:28:51,812 - DEBUG - exit_config_mode: 
+2020-05-10 13:28:51,813 - DEBUG - write_channel: b'exit\n'
+2020-05-10 13:28:51,813 - DEBUG - _read_channel_expect read_data: 
+R3#
+2020-05-10 13:28:51,813 - DEBUG - Pattern found: # 
+R3#
+2020-05-10 13:28:51,813 - DEBUG - exit_config_mode: 
+2020-05-10 13:28:51,814 - DEBUG - write_channel: b'exit\n'
+2020-05-10 13:28:51,814 - DEBUG - EOF in transport thread
+2020-05-10 13:28:51,816 - DEBUG - EOF in transport thread
+2020-05-10 13:28:51,817 - DEBUG - EOF in transport thread
+2020-05-10 13:28:51,818 - DEBUG - EOF in transport thread
+2020-05-10 13:28:51,899 - DEBUG - _read_channel_expect read_data: R5#
+2020-05-10 13:28:51,899 - DEBUG - Pattern found: # 
+R5#
+2020-05-10 13:28:51,899 - DEBUG - exit_config_mode: 
+2020-05-10 13:28:51,900 - DEBUG - write_channel: b'exit\n'
+2020-05-10 13:28:52,939 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5002
+2020-05-10 13:28:52,952 - INFO - 127.0.0.1 - - [10/May/2020 13:28:52] "[37mGET /api/v1/devices/ HTTP/1.1[0m" 200 -
+2020-05-10 13:28:52,954 - DEBUG - http://127.0.0.1:5002 "GET /api/v1/devices/ HTTP/1.1" 200 1023
+2020-05-10 13:28:52,958 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5002
+2020-05-10 13:28:52,972 - INFO - 127.0.0.1 - - [10/May/2020 13:28:52] "[37mGET /api/v1/config/compliance/ HTTP/1.1[0m" 200 -
+2020-05-10 13:28:52,973 - DEBUG - http://127.0.0.1:5002 "GET /api/v1/config/compliance/ HTTP/1.1" 200 1915

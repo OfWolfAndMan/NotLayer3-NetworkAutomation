@@ -1,5 +1,6 @@
 from utils import connect_to_api, parse_policy
 from datetime import datetime
+import os
 
 my_devices = connect_to_api("GET", "http://127.0.0.1:5002/api/v1/devices/")
 my_devices = my_devices.json().get("data")
@@ -12,6 +13,8 @@ print("*********** Create Compliance Report... ************")
 with open(f"./reports/report-{current.strftime('%d-%m-%Y_%H:%M')}.txt", "w") as file:
     file.write(f"******** Compliance Report, Ran at {current.strftime('%d-%m-%Y_%H:%M')} ********\n\n")
     for device in my_devices:
+        if not os.path.exists(f"./configs/{device['name']}.txt"):
+            continue
         viol_id = 1
         file.write(f"\n******** Host {device.get('name')} ******** \n")
         for policy in my_policies:
