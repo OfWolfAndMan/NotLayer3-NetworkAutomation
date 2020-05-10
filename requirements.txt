@@ -6,3 +6,5 @@ flake8
 pytest
 jinja2
 flask
+requests
+CiscoConfParse

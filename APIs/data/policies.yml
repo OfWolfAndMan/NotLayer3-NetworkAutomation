@@ -1,6 +1,6 @@
 - config: transport input ssh
   description: Enables only SSH on the VTY line
-  device_functions:
+  device_types:
   - router
   - switch
   id: 3e2edd0c2dec5d5c1037068ebf07de4c

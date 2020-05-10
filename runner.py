@@ -1,5 +1,6 @@
 from utils import yaml_function, get_config, text_function, parse_outputs
 import click
+from utils import connect_to_api
 
 @click.group()
 def cli():
@@ -7,7 +8,9 @@ def cli():
 
 @click.command(help="Gets running configuration of all devices")
 def get_configs() -> None:
-    for entry in yaml_function("APIs/data/devices.yml", "read"):
+    my_devices = connect_to_api("GET", "http://127.0.0.1:5002/api/v1/devices/")
+    my_devices = my_devices.json().get("data")
+    for entry in my_devices:
         name = entry["name"]
         del entry["name"]
         output = get_config(entry, "show run\n")
@@ -31,3 +34,4 @@ cli.add_command(get_cdp_data)
 
 if __name__ == "__main__":
     cli()
+
